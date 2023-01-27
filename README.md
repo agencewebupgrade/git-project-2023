@@ -5,8 +5,11 @@ Participants :
 - Semi Khelef
 - Sylvain Barrellon
 - Maxime Coëffé
-<<<<<<< HEAD
+
 - Lionel Petit
-=======
+
 - Nicolas Serin
->>>>>>> b589ba5c4286a2c1dd698b422bd8103925afc461
+
+- Rita Alfy
+
+
