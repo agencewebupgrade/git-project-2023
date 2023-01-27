@@ -16,11 +16,11 @@
 
 
 footer {
-    border-top:  black;
+    border-top: black;
     border-top: solid;
     border-width: 0.3rem;
     margin-top: 1rem;
-    background: linear-gradient(120deg,  rgb(190, 190, 190), rgb(0, 0, 0)70%);
+    background: linear-gradient(120deg, rgb(190, 190, 190), rgb(0, 0, 0)70%);
     text-align: right;
     width: 100%;
     height: 8rem;
@@ -50,7 +50,7 @@ footer {
 }
 
 .jppno {
- 
+
     display: flex;
     position: absolute;
     right: 30rem;
@@ -58,10 +58,10 @@ footer {
     text-decoration: solid;
 }
 
-.rezofoot button:hover{
+.rezofoot button:hover {
     background-color: blueviolet;
     cursor: pointer;
- 
+
 }
 
 .rezofoot ul li {
@@ -90,9 +90,11 @@ footer {
     font-weight: bold;
     font-size: 1rem;
 }
-.copy a{
-color: black;
+
+.copy a {
+    color: black;
 }
+
 .categorie {
     margin-left: 20px;
 }
@@ -110,7 +112,7 @@ color: black;
     line-height: 30px;
     margin-left: 15rem;
     font-size: 1.2rem;
-    cursor:pointer;
+    cursor: pointer;
     font-weight: 700;
 }
 
@@ -129,51 +131,54 @@ color: black;
 }
 
 /*-------------------------*/
-.amogus{
-    display:flex;
-    justify-content:space-evenly;
+.amogus {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .dropbtp {
-    background-color:rgb(220, 15, 15);
+    background-color: rgb(220, 15, 15);
     color: white;
     padding: 10px 35px;
     font-size: 2rem;
     border: none;
     cursor: pointer;
     border-radius: 1rem;
-  }
-  
-  .dropdown {
+}
+
+.dropdown {
     position: relative;
     display: inline-block;
-  }
-  
-  .dropdown-content {
+}
+
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  }
-  
-  .dropdown-content a {
+}
+
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #c77676}
-  
-  .dropdown:hover .dropdown-content {
+}
+
+.dropdown-content a:hover {
+    background-color: #c77676
+}
+
+.dropdown:hover .dropdown-content {
     display: block;
-  }
-  
-  .dropdown:hover .dropbtp {
-    background-color:var(--red);
-  }
+}
+
+.dropdown:hover .dropbtp {
+    background-color: var(--red);
+}
+
 /*--------------------------------------*/
 .prix {
     display: flex;
@@ -192,7 +197,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: auto;
-    
+
 }
 
 a:link {
@@ -247,10 +252,10 @@ header {
 
     height: 7rem transition all 0.5s ease-in-out;
 
-    height : 7rem;
+    height: 7rem;
     transition: all 0.5s ease-in-out;
 
-    height : 10rem;
+    height: 10rem;
     transition: all 0.5s ease-in-out;
     margin-bottom: 3rem;
     margin-top: 0;
@@ -328,17 +333,17 @@ header {
     border-radius: 1rem;
 }
 
-.active{
+.active {
     background-color: rgb(137, 0, 0);
 }
 
-.popup{
+.popup {
     display: flex;
     border-radius: 5px;
     transition: all 0.4s ease-in-out;
-    }
+}
 
-.popup .cross{
+.popup .cross {
     position: absolute;
     top: 0.5rem;
     right: 50%;
@@ -353,8 +358,8 @@ header {
     color: rgb(0, 0, 0);
 }
 
-.overlay{
-    position :fixed;
+.overlay {
+    position: fixed;
     height: 20rem;
     width: 42rem;
     top: 5rem;
@@ -370,7 +375,7 @@ header {
     border: 1px solid var(--red);
 }
 
-.overlay:target{
+.overlay:target {
     visibility: visible;
     opacity: 1;
     z-index: 10;
@@ -379,9 +384,10 @@ header {
 
 
 /*accueil (rita)*/
-.corps{
+.corps {
     position: relative;
 }
+
 #main-image h1,
 p {
     text-align: center
@@ -402,10 +408,10 @@ p {
     border: 3px solid var(--red);
     border-radius: 20px;
     position: absolute;
-   bottom: 0px;
-   left: 60px;
-   width: 250px;
-   margin-bottom: 0%;
+    bottom: 0px;
+    left: 60px;
+    width: 250px;
+    margin-bottom: 0%;
 
 
 
@@ -416,17 +422,20 @@ p {
     border: 3px solid var(--red);
     border-radius: 20px;
     position: absolute;
-   bottom: 0px;
-   right: 60px;
-   width: 250px;
-   
-    
+    bottom: 0px;
+    right: 60px;
+    width: 250px;
+
+
 
 }
-.btn{ border-radius: 15px;
+
+.btn {
+    border-radius: 15px;
 
 }
-.btn:hover{
+
+.btn:hover {
     background-color: gray;
     color: var(--red);
 }
@@ -695,11 +704,46 @@ p {
 }
 
 .cardProduct div img {
-    height:100px
+    height: 100px
 }
 
-.cardProduct p{
+.cardProduct p {
     width: 50%;
     margin-right: 20px;
 }
 
+.hache1 {
+    text-align: center;
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--red);
+    color: white;
+    border-radius: 4px;
+}
+
+#hache2 {
+    text-align: center;
+    width: 50%;
+    padding: 30px;
+}
+
+.hache3 {
+    text-align: center;
+    width: 50%;
+    margin-top: 20px;
+    padding: 10px;
+    padding-bottom: 20px;
+    background-color: var(--red);
+    color: white;
+    border-radius: 4px;
+}
+
+.Lorem1 {
+    display: flex;
+    
+    width: 60%;
+    padding: 1rem;
+    color:antiquewhite;
+    background-color: rgb(0, 0, 0);
+}
