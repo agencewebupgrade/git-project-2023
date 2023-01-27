@@ -14,7 +14,7 @@
 }
 
 
-html, body {
+HTML, body {
 
     font-family: var(--font-main);
     width: 100%;
@@ -27,21 +27,36 @@ html, body {
     scroll-behavior: smooth;
 }
 
-p {
-    font-family: sans-serif;
+a:link
+{ 
+ text-decoration:none;
+ color:black;
+} 
+
+h1,
+h2 {
+    font-family: var(--font-heading);
 }
-
-
 h1, h2{
     font-family:var(--font-heading);
->>>>>>> 93277532fc3263d3064a3f8625897c83d9f4d3c2
-}
 
+}
 li {
-    text-decoration: none;
+    list-style-type: none;
 }
 
-<<<<<<< HEAD
+.copy {
+  display: flex;
+  font-family: var(--font-main);
+ font-weight: bold;
+ font-size: 1.2rem;
+justify-items:center ; 
+margin-top: 100px;
+}
+
+
+
+
 .img-rs {
     width: 5rem;
     height: 5rem;
@@ -63,6 +78,9 @@ li {
     background-color: transparent;
   }
 
+  footer{
+    background-color: rgb(180, 180, 180);
+  }
 header {
     margin: 0;
     background-image: url("asset/guing.jpg");
@@ -122,3 +140,4 @@ header {
     text-decoration: none;
     color: var(--cream);
 }
+
