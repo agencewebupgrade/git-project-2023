@@ -206,7 +206,7 @@ header {
 
 .nav ul {
     position: absolute;
-    top: 8rem;
+    top: 7rem;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
