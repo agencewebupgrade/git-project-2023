@@ -1,0 +1,52 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Poppins:wght@400;700&display=swap");
+/* VARIABLES */
+:root {
+  --red: rgb(77, 9, 9);
+  --cream: rgb(237 232 226);
+  --white: rgb(255 255 255);
+  /* BORDER-RADIUS */
+  --border-radius: 10px;
+  /* FONTS */
+  --font-main: "Montserrat", sans-serif;
+  --font-heading: "Poppins", sans-serif;
+}
+
+header{
+    background-color: var(--red);
+}
+
+HTML, body {
+    font-family: var(--font-main);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: var(--cream);
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    scroll-behavior:smooth;
+}
+
+h1, h2{
+    font-family:var(--font-heading);
+}
+
+li{
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    border: 1px solid var(--cream);
+    background-color: var(--red);
+    color: var(--cream);
+    padding: 0.8rem 1rem;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+  
+.btn:hover {
+    background-color: transparent;
+  }
