@@ -14,7 +14,7 @@
 }
 
 
-HTML, body {
+html, body {
 
     font-family: var(--font-main);
     width: 100%;
@@ -92,9 +92,11 @@ header {
 	align-items: flex-start;
     list-style-type: none;
     padding-top: 1rem;
+    color: var(--cream);
+    padding-right: 1rem;
 }
 
-inscr ul li a {
+.inscr ul li a {
     text-decoration: none;
     color: var(--cream);
 }
@@ -113,10 +115,10 @@ inscr ul li a {
 	align-items: flex-start;
 	align-content: center;
     list-style-type: none;
-    background-color: var(--cream);
+    background-color: var(--red);
 }
 
 .nav ul li a {
     text-decoration: none;
-    color: var(--red);
+    color: var(--cream);
 }
