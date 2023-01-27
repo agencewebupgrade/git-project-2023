@@ -14,19 +14,6 @@
 }
 
 header{
-    background-color: var(--red);
-
-
-
-}
-
-
-
-
-
-
-
-header{
     background-color: var(--white);
 }
 
@@ -63,8 +50,15 @@ footer{
 }
 
 
-
-
+.consommable{
+    color: rgb(180, 12, 12);
+    display: flex;
+    float: left;
+    top: 10px;
+}
+.detail{
+    color:rgb(100, 76, 76);
+}
 
 HTML, body {
 
