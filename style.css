@@ -13,15 +13,12 @@
     --font-heading: "Poppins", sans-serif;
 }
 
-<<<<<<< HEAD
 header {
     background-color: var(--red);
 
 
 
 }
-=======
->>>>>>> 2b0d139c8806c12e5847036f54a51ff16409523c
 
 
 
@@ -29,18 +26,9 @@ header {
 
 
 
-<<<<<<< HEAD
 header {
     background-color: var(--white);
 }
-=======
-
-
-
-
-
-
->>>>>>> 2b0d139c8806c12e5847036f54a51ff16409523c
 
 
 **************** FOOOOTTTTEEEEERRRRRRRRRR ************************ ****************************************************************** 
@@ -51,9 +39,6 @@ footer {
     background-color: rgb(122, 122, 122);
 }
 
-footer p{
-    text-align: right;
-}
 
 #mentions li {
     display: inline-flex;
@@ -87,12 +72,18 @@ footer p{
 }
 
 .copy {
+    margin: 1rem 0 0 1rem;
     display: flex;
-    justify-items: center;
+    
     font-family: var(--font-main);
     font-weight: bold;
     font-size: 1.2rem;
+
 }
+
+
+
+
 
 
 
@@ -111,7 +102,6 @@ body {
     scroll-behavior: smooth;
 }
 
-<<<<<<< HEAD
 a:link {
     text-decoration: none;
     color: black;
@@ -125,20 +115,11 @@ h2 {
 h1,
 h2 {
     font-family: var(--font-heading);
-=======
-p {
-    font-family: sans-serif;
-}
-
-
-h1, h2{
-    font-family:var(--font-heading);
->>>>>>> 2b0d139c8806c12e5847036f54a51ff16409523c
 
 }
 
 li {
-    text-decoration: none;
+    list-style-type: none;
 }
 
 
@@ -166,13 +147,10 @@ li {
     background-color: transparent;
 }
 
-<<<<<<< HEAD
 footer {
     background-color: rgb(180, 180, 180);
 }
 
-=======
->>>>>>> 2b0d139c8806c12e5847036f54a51ff16409523c
 header {
     margin: 0;
     background-image: url("asset/guing.jpg");
@@ -181,14 +159,8 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-<<<<<<< HEAD
     height: 7rem
-=======
-    height : 7rem
-    transition all 0.5s ease-in-out;
->>>>>>> 2b0d139c8806c12e5847036f54a51ff16409523c
 }
-
 
 .logo {
     position: absolute;
@@ -213,22 +185,11 @@ header {
 inscr ul li a {
     text-decoration: none;
     color: var(--cream);
-    padding: 0.5rem;
-}
-
-.inscr ul li a:hover{
-    background-color: var(--cream);
-    color: var(--red);
-    border-radius: var(--border-radius);
-}
-
-.inscr ul li a:active {
-    background-color: var(--white);
-    transform: scale(0.9);
 }
 
 .nav {
     margin-top: 4rem;
+    top: 6rem;
     display: block;
 }
 
@@ -241,31 +202,9 @@ inscr ul li a {
     align-content: center;
     list-style-type: none;
     background-color: var(--cream);
-    background-color: var(--red);
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    font-size: 1.5rem;
-    font-weight: 700;
 }
 
 .nav ul li a {
     text-decoration: none;
     color: var(--red);
-<<<<<<< HEAD
 }
-=======
-    color: var(--cream);
-    padding: 0.5rem 2rem;
-}
-
-.nav ul li a:hover {
-    background-color: var(--cream);
-    color: var(--red);
-}
-
-.nav ul li a:active {
-    transform: scale(0.90);
-    background-color: var(--white);
-}
-
->>>>>>> 2b0d139c8806c12e5847036f54a51ff16409523c
