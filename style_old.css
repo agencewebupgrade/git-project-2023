@@ -73,41 +73,43 @@ footer {
     font-size: 1.2rem;
 }
 
-.categorie {
+.categorie{
     margin-left: 20px;
 }
 
-.exploit {
+.exploit{
     display: flex;
     direction: row;
     justify-content: space-evenly;
-
+    
 }
 
-.Consommable {
+.Consommable{
     color: rgb(180, 12, 12);
     top: 10px;
     line-height: 30px;
 }
-
-.details {
-    color: rgb(100, 76, 76);
-    top: 10px;
+.details{
+    color:rgb(100, 76, 76);
+    top:10px;
     margin-left: 30px;
 }
 
-.midmenu {
+.midmenu{
     text-align: center;
 }
-
-.prix {
-    display: flex;
-    float: right;
+.prix{
+display: flex;
+float: right;
 }
 
+<<<<<<< HEAD
+HTML, body {
+=======
 HTML,
 body {
 
+>>>>>>> 521d92154ebba176bc438b5bfeb2a7873d362f04
     font-family: var(--font-main);
     width: 100%;
     height: 100%;
@@ -156,6 +158,13 @@ li {
 }
 
 
+
+
+
+footer {
+    background-color: rgb(180, 180, 180);
+}
+
 /*************************** HEADER *********************************/
 
 header {
@@ -166,6 +175,11 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+<<<<<<< HEAD
+    height : 10rem;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 1rem;
+=======
 
     height: 7rem transition all 0.5s ease-in-out;
 
@@ -178,6 +192,7 @@ header {
     transition: all 0.5s ease-in-out;
     margin-bottom: 3rem;
     margin-top: 0;
+>>>>>>> 521d92154ebba176bc438b5bfeb2a7873d362f04
 }
 
 
@@ -208,7 +223,7 @@ header {
     padding: 0.5rem;
 }
 
-.inscr ul li a:hover {
+.inscr ul li a:hover{
     background-color: var(--cream);
     color: var(--red);
     border-radius: var(--border-radius);
@@ -243,6 +258,7 @@ header {
     border-bottom-right-radius: 1rem;
 }
 
+
 .nav ul li a {
     text-decoration: none;
     color: var(--red);
@@ -251,157 +267,6 @@ header {
     border-radius: 1rem;
 }
 
-.popup{
-    display: flex;
-    border-radius: 5px;
-    transition: all 0.4s ease-in-out;
-    }
-
-.popup .cross{
-    position: absolute;
-    top: 1rem;
-    right: 50%;
-    transform: translateX(20rem);
-    font-size: 2rem;
-    font-weight: bold;
-    text-decoration: none;
-    color: var(--red);
-}
-
-.popup .cross:hover {
-    color: rgb(0, 0, 0);
-}
-
-.overlay{
-    position :fixed;
-    height: 20rem;
-    width: 42rem;
-    top: 5rem;
-    bottom: 0;
-    right: 0;
-    left: 20rem;
-    transition: opacity .4s;
-    visibility: hidden;
-    opacity: 0;
-    background-color: var(--cream);
-    color: var(--red);
-    border-radius: 1rem;
-    border: 1px solid var(--red);
-}
-
-.overlay:target{
-    visibility: visible;
-    opacity: 1;
-    z-index: 10;
-}
-
-
-
-/*accueil (rita)*/
-#main-image h1,
-p {
-    text-align: center
-}
-
-.main-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    height: 400px;
-}
-
-#menu {
-    text-align: center;
-    border: 3px solid var(--red);
-
-
-
-}
-
-#reservation {
-    text-align: center;
-    border: 3px solid var(--red);
-
-}
-
-#menu .btn {
-    animation: wiggle 2s linear infinite;
-}
-
-/* Keyframes */
-@keyframes wiggle {
-
-    0%,
-    7% {
-        transform: rotateZ(0);
-    }
-
-    15% {
-        transform: rotateZ(-15deg);
-    }
-
-    20% {
-        transform: rotateZ(10deg);
-    }
-
-    25% {
-        transform: rotateZ(-10deg);
-    }
-
-    30% {
-        transform: rotateZ(6deg);
-    }
-
-    35% {
-        transform: rotateZ(-4deg);
-    }
-
-    40%,
-    100% {
-        transform: rotateZ(0);
-    }
-}
-
-#reservation .btn {
-    animation: wiggle 2s linear infinite;
-}
-
-/* Keyframes */
-@keyframes wiggle {
-
-    0%,
-    7% {
-        transform: rotateZ(0);
-    }
-
-    15% {
-        transform: rotateZ(-15deg);
-    }
-
-    20% {
-        transform: rotateZ(10deg);
-    }
-
-    25% {
-        transform: rotateZ(-10deg);
-    }
-
-    30% {
-        transform: rotateZ(6deg);
-    }
-
-    35% {
-        transform: rotateZ(-4deg);
-    }
-
-    40%,
-    100% {
-        transform: rotateZ(0);
-    }
-}
-
-/* fin accueil (rita)*/
 
 
 
@@ -417,107 +282,99 @@ p {
 
 /******************* FIN DU HEADER *********************/
 
-#main-image h1,
-p {
-    text-align: center
+/*accueil (rita)*/
+#main-image h1{
+    padding-top: 10px;
+    font-size: 50px;
+    font-style: italic;
 }
-
-.main-image {
+#main-image h1, p{ text-align: center;
+    padding: 10px;
+    
+}
+.main-image{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 400px;
+  border-radius: 30%;
+  box-shadow: 10px 10px 5px lightslategray;
 }
-
-#menu {
-    text-align: center;
+#menu{  text-align: center;
     border: 3px solid var(--red);
 
+    
 
 }
-
-#reservation {
-    text-align: center;
+#reservation{text-align: center;
     border: 3px solid var(--red);
 
 }
-
-#menu .btn {
+.btn{
+    border-radius: 12px
+    
+}
+.btn:hover{background-color: darkolivegreen;}
+#menu .btn{
     animation: wiggle 2s linear infinite;
 }
 
 /* Keyframes */
 @keyframes wiggle {
-
-    0%,
-    7% {
-        transform: rotateZ(0);
-    }
-
-    15% {
-        transform: rotateZ(-15deg);
-    }
-
-    20% {
-        transform: rotateZ(10deg);
-    }
-
-    25% {
-        transform: rotateZ(-10deg);
-    }
-
-    30% {
-        transform: rotateZ(6deg);
-    }
-
-    35% {
-        transform: rotateZ(-4deg);
-    }
-
-    40%,
-    100% {
-        transform: rotateZ(0);
-    }
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
 }
-
-#reservation .btn {
+#reservation .btn{
     animation: wiggle 2s linear infinite;
 }
 
 /* Keyframes */
 @keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}  
 
-    0%,
-    7% {
-        transform: rotateZ(0);
-    }
+/* fin accueil (rita)*/
 
-    15% {
-        transform: rotateZ(-15deg);
-    }
-
-    20% {
-        transform: rotateZ(10deg);
-    }
-
-    25% {
-        transform: rotateZ(-10deg);
-    }
-
-    30% {
-        transform: rotateZ(6deg);
-    }
-
-    35% {
-        transform: rotateZ(-4deg);
-    }
-
-    40%,
-    100% {
-        transform: rotateZ(0);
-    }
-}
 
 .formul {
     width: 30rem;
@@ -542,7 +399,7 @@ p {
     background-color: var(--white);
 }
 
-.text:focus {
+.text:focus{
     background-color: rgb(222, 255, 255);
 }
 
@@ -553,7 +410,7 @@ p {
     background-color: var(--red);
 }
 
-.envoyer {
+.envoyer{
     background-color: var(--red);
     border-radius: 0.75rem;
     width: 30%;
@@ -563,12 +420,12 @@ p {
     transition: all 0.3s ease-in-out;
 }
 
-.envoyer:hover {
+.envoyer:hover{
     background-color: var(--cream);
     color: var(--red);
 }
 
-.envoyer:active {
+.envoyer:active{
     transform: scale(0.8);
 }
 
@@ -592,8 +449,11 @@ p {
     height:100px
 }
 
+.cardProduct h1{
+    margin-left: 10px;
+}
+
 .cardProduct p{
     width: 50%;
     margin-right: 20px;
 }
-
