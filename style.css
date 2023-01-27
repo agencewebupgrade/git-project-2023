@@ -337,7 +337,7 @@ header {
 }
 
 /******************* FIN DU HEADER *********************/
-
+/* accueil*/
 #main-image h1, p{ 
     text-align: center  
 }
@@ -415,7 +415,7 @@ header {
     transform: rotateZ(0);
   }
 }  
-
+/*fin accueil*/
 .formul {
     width: 30rem;
     margin-left: 4rem;
