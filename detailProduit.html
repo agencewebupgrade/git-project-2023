@@ -4,22 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <title>Produit</title>
 
 </head>
+<header>
+    <section>
+        <div class="inscr">
+            <ul>
+                <li><a href="inscrip.html" target="_blank">Inscription</a></li>
+                <li>/</li>
+                <li><a href="log.html">Connexion</a></li>
+            </ul>
+        </div>
+        <div class="logo"><img src="asset/guinguette01.png" alt="logo la Guinguette de St Just St Rambert"></div>
+        
+    </section>
+    <section class="nav">
+        <ul>
+            <li><a href="./accueil.html">Accueil</a></li>
+            <li><a href="./produit.html">Nos produits</a></li>
+            <li><a href="./about.html">Notre Guinguette</a></li>
+            <li><a href="./contact.html">Contactez-nous</a></li>
+        </ul>
+    </section>
+</header>
+
 
 <body>
     <h1 id="nom"></h1>
     
     <div class="cardProduct">
-        <div><img src="produit.png" alt="Image produit"></div>
+        <div><img src="asset/badoit.jpeg" alt="Image produit"></div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
              Pariatur veritatis dicta sequi quisquam dolorem modi qui architecto quasi 
              cum! Animi reprehenderit optio cupiditate. Consequatur voluptate facere iusto 
              culpa delectus alias?
         </p>
     </div>
+   
     <script language="Javascript">
         var parameters = location.search.substring(1).split("&");
         var temp = parameters[0].split("=");
@@ -34,4 +57,40 @@
         }
     </script> 
 </body>
+<footer>
+    <div class="copy">
+
+        <p> © copyright promos HB la best 2023.</p>
+    </div>
+
+    <div id="mentions">
+        <ul>
+            <li><a href="https://www.legalplace.fr/contrats/mentions-legales-2/?gclid=Cj0KCQiAic6eBhCoARIsANlox874DF-_Bl8Lf2aT7y6ONfdd6cLA-BmpjljJ__dLWJDMnqpm5prK1esaAjvkEALw_wcB">Mentions légales </a></li>
+            <li><a href="#">Plan du site</a></li>
+                <li><a href="contact.html">Nous contacter</a></li>
+        </ul>
+    </div>
+    <div class="rezofoot">
+        <ul>
+            <li>
+                <a href="https://www.instagram.com" target="_blank"> <img
+                        src="https://static.deepl.com/img/_optimized/footer/instagramLogo.svg" alt="instagram"></a>
+            </li>
+
+            <li><a href="https://github.com/" target="_blank"><img
+                    src="https://static.deepl.com/img/_optimized/footer/githubLogo.svg" alt="github"></a></li>
+
+<li><a href="https://www.linkedin.com/" target="_blank"><img
+                    src="https://static.deepl.com/img/_optimized/footer/linkedinLogo.svg" alt="linkedin"></a></li>
+
+           <li> <a href="https://fr-fr.facebook.com/" target="_blank"> <img
+                    src="https://static.deepl.com/img/_optimized/footer/facebookLogo.svg" alt="facebook"> </a></li>
+
+           <li> <a href="https://twitter.com" target="_blank"> <img
+                    src="https://static.deepl.com/img/_optimized/footer/twitterLogo.svg" alt="twitter"></a></li>
+        </ul>
+    </div>
+
+
+</footer>
 </html>

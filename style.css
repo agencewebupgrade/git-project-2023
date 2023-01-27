@@ -451,3 +451,27 @@ header {
 .envoyer:active{
     transform: scale(0.8);
 }
+
+/* Détail Produit*/
+.cardProduct {
+    background-color: darkkhaki;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    box-shadow: .3em 0 .3em olive, -.3em 0 .3em olive;
+}
+
+.cardProduct div img {
+    margin-left:20px;
+    height:100px
+}
+
+p{
+    width: 50%;
+    margin-right: 20px;
+}
