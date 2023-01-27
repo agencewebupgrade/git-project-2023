@@ -155,8 +155,8 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height : 7rem
-    transition all 0.5s ease-in-out;
+    height : 7rem;
+    transition: all 0.5s ease-in-out;
 }
 
 
