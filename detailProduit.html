@@ -46,12 +46,17 @@
     <script language="Javascript">
         var parameters = location.search.substring(1).split("&");
         var temp = parameters[0].split("=");
-        l = unescape(temp[1]);
+        var l = ''
+        for(let i=1; i<temp.length; i++ ){
+            l += temp[i]
+        }
+        decodeURI(l)
         p = unescape(temp[0]);
         const titre = document.getElementById("nom");
         if(l != 'undefined'){
-            console.log(p + ':' + l)         
-            titre.innerHTML = l
+            console.log(p + ':' + l)
+                    
+            titre.innerHTML = decodeURI(l)
         } else {
             titre.innerHTML = 'Nom Produit'
         }
