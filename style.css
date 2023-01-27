@@ -13,7 +13,7 @@
     --font-heading: "Poppins", sans-serif;
 }
 
-header{
+header {
     background-color: var(--red);
 
 
@@ -26,47 +26,67 @@ header{
 
 
 
-header{
+header {
     background-color: var(--white);
 }
 
-footer{
-  background-color: rgb(121, 101, 101);
-}
-#mentions li  {
-  display: inline-flex;
-  
-  padding: 0 0.5rem ;
-  font-size: 1.2rem;
-  font-weight: bold;
 
+**************** FOOOOTTTTEEEEERRRRRRRRRR ************************ ****************************************************************** 
+
+
+
+footer {
+    background-color: rgb(122, 122, 122);
 }
 
-#mentions  {
-    display:flex;
+footer p{
+    text-align: right;
+}
+
+#mentions li {
+    display: inline-flex;
+    padding: 0 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#mentions {
+
+    display: flex;
     justify-content: end;
-    
-    
+}
 
+.rezofoot {
+    display: flex;
+    justify-content: end;
 }
-.rezofoot{
-  display: flex;
-  justify-content: end;
-}
-.rezofoot ul li{
-    display:inline-flex;
+
+.rezofoot ul li {
+    display: inline-flex;
     justify-content: flex-end;
-  
-}
-.rezofoot ul li img{
-  height: 50px;
 }
 
+#mentions a:hover {
+    color: antiquewhite;
+}
+
+.rezofoot ul li img {
+    height: 50px;
+}
+
+.copy {
+    display: flex;
+    justify-items: center;
+    font-family: var(--font-main);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
 
 
 
-
-HTML, body {
+********** FFIIIIINNNNN FOOOOTTTTEEEEERRRRRRRRRR ***************** ****************************************************************** 
+HTML,
+body {
 
     font-family: var(--font-main);
     width: 100%;
@@ -79,32 +99,26 @@ HTML, body {
     scroll-behavior: smooth;
 }
 
-a:link
-{ 
- text-decoration:none;
- color:black;
-} 
+a:link {
+    text-decoration: none;
+    color: black;
+}
 
 h1,
 h2 {
     font-family: var(--font-heading);
 }
-h1, h2{
-    font-family:var(--font-heading);
+
+h1,
+h2 {
+    font-family: var(--font-heading);
 
 }
+
 li {
     list-style-type: none;
 }
 
-.copy {
-  display: flex;
-  font-family: var(--font-main);
- font-weight: bold;
- font-size: 1.2rem;
-justify-items:center ; 
-margin-top: 100px;
-}
 
 
 
@@ -124,24 +138,25 @@ margin-top: 100px;
     transition: all 0.3s ease-in-out;
 }
 
-  
+
 
 .btn:hover {
     background-color: transparent;
-  }
+}
 
-  footer{
+footer {
     background-color: rgb(180, 180, 180);
-  }
+}
+
 header {
     margin: 0;
     background-image: url("asset/guing.jpg");
     background-color: var(--red);
     background-position: center;
     background-repeat: no-repeat;
-    background-size :cover;
+    background-size: cover;
     position: relative;
-    height : 7rem
+    height: 7rem
 }
 
 .logo {
@@ -151,15 +166,15 @@ header {
     padding-left: 2rem;
 }
 
-.logo img{
+.logo img {
     height: 4rem;
 }
 
-.inscr ul{
+.inscr ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-	align-items: flex-start;
+    align-items: flex-start;
     list-style-type: none;
     padding-top: 1rem;
 }
@@ -175,13 +190,13 @@ inscr ul li a {
     display: block;
 }
 
-.nav ul{
+.nav ul {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-	justify-content: space-evenly;
-	align-items: flex-start;
-	align-content: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: center;
     list-style-type: none;
     background-color: var(--cream);
 }
@@ -190,4 +205,3 @@ inscr ul li a {
     text-decoration: none;
     color: var(--red);
 }
-
