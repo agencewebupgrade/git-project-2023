@@ -49,15 +49,34 @@ footer{
   height: 50px;
 }
 
-
-.consommable{
-    color: rgb(180, 12, 12);
-    display: flex;
-    float: left;
-    top: 10px;
+.categorie{
+    margin-left: 20px;
 }
-.detail{
+
+.exploit{
+    display: flex;
+    direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.Consommable{
+    color: rgb(180, 12, 12);
+    top: 10px;
+    line-height: 30px;
+}
+.details{
     color:rgb(100, 76, 76);
+    top:10px;
+    margin-left: 30px;
+}
+
+.midmenu{
+    text-align: center;
+}
+.prix{
+display: flex;
+float: right;
 }
 
 HTML, body {
