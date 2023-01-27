@@ -368,6 +368,7 @@ p {
 }
 .btn:hover{
     background-color: gray;
+    color: var(--red);
 }
 
 #menu .btn {
