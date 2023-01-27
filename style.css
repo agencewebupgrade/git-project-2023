@@ -555,6 +555,10 @@ p {
     height:100px
 }
 
+.cardProduct h1{
+    margin-left: 10px;
+}
+
 .cardProduct p{
     width: 50%;
     margin-right: 20px;
