@@ -46,6 +46,21 @@ footer {
     bottom: 0rem;
 }
 
+.jppno {
+ 
+    display: flex;
+    position: absolute;
+    right: 20rem;
+    bottom: 1rem;
+    text-decoration: solid;
+}
+
+.rezofoot button:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+ 
+}
+
 .rezofoot ul li {
     display: inline-flex;
     justify-content: flex-end;
@@ -172,6 +187,7 @@ body {
     padding: 0;
     overflow-y: scroll;
     scroll-behavior: smooth;
+    
 }
 
 a:link {
@@ -255,6 +271,7 @@ header {
     list-style-type: none;
     padding-top: 1rem;
     padding-right: 2rem;
+    margin-top: 0;
 }
 
 .inscr ul li a {
@@ -306,6 +323,10 @@ header {
     border-radius: 1rem;
 }
 
+.active{
+    background-color: rgb(137, 0, 0);
+}
+
 .popup{
     display: flex;
     border-radius: 5px;
@@ -353,6 +374,9 @@ header {
 
 
 /*accueil (rita)*/
+.corps{
+    position: relative;
+}
 #main-image h1,
 p {
     text-align: center
@@ -371,6 +395,12 @@ p {
 #menu {
     text-align: center;
     border: 3px solid var(--red);
+    border-radius: 20px;
+    position: absolute;
+   bottom: 0px;
+   left: 60px;
+   width: 250px;
+   margin-bottom: 0%;
 
 
 
@@ -379,6 +409,13 @@ p {
 #reservation {
     text-align: center;
     border: 3px solid var(--red);
+    border-radius: 20px;
+    position: absolute;
+   bottom: 0px;
+   right: 60px;
+   width: 250px;
+   
+    
 
 }
 .btn{ border-radius: 15px;
