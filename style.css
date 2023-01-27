@@ -13,6 +13,52 @@
     --font-heading: "Poppins", sans-serif;
 }
 
+header{
+    background-color: var(--white);
+}
+
+footer{
+  background-color: rgb(121, 101, 101);
+}
+#mentions li  {
+  display: inline-flex;
+  
+  padding: 0 0.5rem ;
+  font-size: 1.2rem;
+  font-weight: bold;
+
+}
+
+#mentions  {
+    display:flex;
+    justify-content: end;
+    
+    
+
+}
+.rezofoot{
+  display: flex;
+  justify-content: end;
+}
+.rezofoot ul li{
+    display:inline-flex;
+    justify-content: flex-end;
+  
+}
+.rezofoot ul li img{
+  height: 50px;
+}
+
+
+.consommable{
+    color: rgb(180, 12, 12);
+    display: flex;
+    float: left;
+    top: 10px;
+}
+.detail{
+    color:rgb(100, 76, 76);
+}
 
 HTML, body {
 
@@ -45,8 +91,6 @@ li {
     list-style-type: none;
 }
 
-<<<<<<< HEAD
-=======
 .copy {
   display: flex;
   font-family: var(--font-main);
@@ -58,7 +102,6 @@ margin-top: 100px;
 
 
 
->>>>>>> 1709af78a2f377516cd15dcf7c9d5dcbe5d21405
 
 .img-rs {
     width: 5rem;
