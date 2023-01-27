@@ -259,7 +259,7 @@ header {
 
 .popup .cross{
     position: absolute;
-    top: 1rem;
+    top: 0.5rem;
     right: 50%;
     transform: translateX(20rem);
     font-size: 2rem;
