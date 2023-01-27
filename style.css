@@ -1,2 +1,48 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Poppins:wght@400;700&display=swap');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML, body {
+    font-family: var(--font-main);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: ;
+    color:var(--bl);
+    text-shadow: ;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    scroll-behavior:smooth;
+}
+
+h1, h2{
+    font-family:;
+}
