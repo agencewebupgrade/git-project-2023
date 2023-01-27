@@ -6,3 +6,5 @@ Participants :
 - Sylvain Barrellon
 - Maxime Coëffé
 - Nicolas Serin
+- Rita Alfy
+
