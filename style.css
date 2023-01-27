@@ -158,7 +158,12 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+<<<<<<< HEAD
     height: 7rem transition all 0.5s ease-in-out;
+=======
+    height : 7rem;
+    transition: all 0.5s ease-in-out;
+>>>>>>> 7133f5e1fa847bb9f41bd665a9cc2c149dcc23f0
 }
 
 
@@ -180,6 +185,7 @@ header {
     align-items: flex-start;
     list-style-type: none;
     padding-top: 1rem;
+    padding-right: 2rem;
 }
 
 .inscr ul li a {
