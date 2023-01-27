@@ -12,6 +12,10 @@
   --font-heading: "Poppins", sans-serif;
 }
 
+header{
+    background-color: var(--red);
+}
+
 HTML, body {
     font-family: var(--font-main);
     width: 100%;
@@ -24,10 +28,6 @@ HTML, body {
     scroll-behavior:smooth;
 }
 
-p{
-    font-family: sans-serif;
-}
-
 h1, h2{
     font-family:var(--font-heading);
 }
@@ -35,3 +35,18 @@ h1, h2{
 li{
     text-decoration: none;
 }
+
+.btn {
+    display: inline-block;
+    border: 1px solid var(--cream);
+    background-color: var(--red);
+    color: var(--cream);
+    padding: 0.8rem 1rem;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+  
+.btn:hover {
+    background-color: transparent;
+  }

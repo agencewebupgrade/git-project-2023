@@ -5,6 +5,11 @@ Participants :
 - Semi Khelef
 - Sylvain Barrellon
 - Maxime Coëffé
+
+- Lionel Petit
+
 - Nicolas Serin
+
 - Rita Alfy
+
 
