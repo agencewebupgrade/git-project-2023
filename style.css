@@ -26,6 +26,9 @@ header{
 
 
 
+header{
+    background-color: var(--white);
+}
 
 footer{
   background-color: rgb(121, 101, 101);
@@ -76,9 +79,11 @@ HTML, body {
     scroll-behavior: smooth;
 }
 
-p {
-    font-family: sans-serif;
-}
+a:link
+{ 
+ text-decoration:none;
+ color:black;
+} 
 
 h1,
 h2 {
@@ -89,7 +94,7 @@ h1, h2{
 
 }
 li {
-    text-decoration: none;
+    list-style-type: none;
 }
 
 .copy {
