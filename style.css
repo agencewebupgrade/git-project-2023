@@ -508,6 +508,7 @@ p {
 .nav ul li a:hover {
     background-color: var(--cream);
     color: var(--red);
+    border: 1px solid var(--red);
 }
 
 .nav ul li a:active {
