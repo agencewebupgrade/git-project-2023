@@ -88,21 +88,76 @@ footer {
     color: rgb(180, 12, 12);
     top: 10px;
     line-height: 30px;
+    margin-left: 15rem;
+    font-size: 1.2rem;
+    
 }
 
 .details {
     color: rgb(100, 76, 76);
     top: 10px;
-    margin-left: 30px;
+    margin-left: 16rem;
+    font-size: 0.9rem;
+
 }
 
 .midmenu {
     text-align: center;
+    background-color: var(--red);
+    color: var(--white)
 }
 
+/*-------------------------*/
+.amogus{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.dropbtp {
+    background-color:rgb(220, 15, 15);
+    color: white;
+    padding: 10px 35px;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #c77676}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtp {
+    background-color:var(--red);
+  }
+/*--------------------------------------*/
 .prix {
     display: flex;
     float: right;
+    margin-right: 20rem;
 }
 
 HTML,
@@ -136,7 +191,7 @@ h2 {
 }
 
 li {
-    text-decoration: none;
+    list-style-type: none;
 }
 
 .img-rs {
