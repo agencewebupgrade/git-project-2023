@@ -18,8 +18,12 @@ header {
 }
 
 footer {
+    margin-top: 1rem;
     background-color: rgb(122, 122, 122);
     text-align: right;
+    width: 100%;
+    height: 10rem;
+    position: relative;
 }
 
 #mentions li {
@@ -30,14 +34,18 @@ footer {
 }
 
 #mentions {
-
+    margin-right: 2rem;
+    padding-top: 1rem;
     display: flex;
     justify-content: end;
 }
 
 .rezofoot {
+    position: absolute;
     display: flex;
     justify-content: end;
+    right: 1rem;
+    bottom: 0rem;
 }
 
 .rezofoot ul li {
@@ -55,43 +63,52 @@ footer {
 
 .copy {
     display: flex;
+    float: left;
     justify-items: center;
+    align-items: center;
+    position: absolute;
+    top: 4rem;
+    left: 1rem;
+
     font-family: var(--font-main);
     font-weight: bold;
     font-size: 1.2rem;
 }
 
-.categorie{
+.categorie {
     margin-left: 20px;
 }
 
-.exploit{
+.exploit {
     display: flex;
     direction: row;
     justify-content: space-evenly;
-    
+
 }
 
-.Consommable{
+.Consommable {
     color: rgb(180, 12, 12);
     top: 10px;
     line-height: 30px;
 }
-.details{
-    color:rgb(100, 76, 76);
-    top:10px;
+
+.details {
+    color: rgb(100, 76, 76);
+    top: 10px;
     margin-left: 30px;
 }
 
-.midmenu{
+.midmenu {
     text-align: center;
 }
-.prix{
-display: flex;
-float: right;
+
+.prix {
+    display: flex;
+    float: right;
 }
 
-HTML, body {
+HTML,
+body {
 
     font-family: var(--font-main);
     width: 100%;
@@ -157,8 +174,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height : 7rem
-    transition all 0.5s ease-in-out;
+    height: 7rem transition all 0.5s ease-in-out;
 }
 
 
@@ -188,7 +204,7 @@ inscr ul li a {
     padding: 0.5rem;
 }
 
-.inscr ul li a:hover{
+.inscr ul li a:hover {
     background-color: var(--cream);
     color: var(--red);
     border-radius: var(--border-radius);
@@ -219,6 +235,7 @@ inscr ul li a {
     font-size: 1.5rem;
     font-weight: 700;
 }
+
 
 .nav ul li a {
     text-decoration: none;
