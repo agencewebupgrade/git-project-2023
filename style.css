@@ -1,0 +1,11 @@
+/* VARIABLES */
+:root {
+  --red: rgb(77, 9, 9);
+  --cream: rgb(237 232 226);
+  --white: rgb(255 255 255);
+  /* BORDER-RADIUS */
+  --border-radius: 10px;
+  /* FONTS */
+  --font-main: "Montserrat", sans-serif;
+  --font-heading: "Poppins", sans-serif;
+}
