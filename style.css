@@ -13,6 +13,12 @@
     --font-heading: "Poppins", sans-serif;
 }
 
+header{
+    background-color: var(--red);
+
+
+
+}
 
 
 
@@ -20,10 +26,9 @@
 
 
 
-
-
-
-
+header{
+    background-color: var(--white);
+}
 
 footer{
   background-color: rgb(121, 101, 101);
@@ -74,18 +79,22 @@ HTML, body {
     scroll-behavior: smooth;
 }
 
-p {
-    font-family: sans-serif;
+a:link
+{ 
+ text-decoration:none;
+ color:black;
+} 
+
+h1,
+h2 {
+    font-family: var(--font-heading);
 }
-
-
 h1, h2{
     font-family:var(--font-heading);
 
 }
-
 li {
-    text-decoration: none;
+    list-style-type: none;
 }
 
 <<<<<<< HEAD
@@ -124,6 +133,9 @@ margin-top: 100px;
     background-color: transparent;
   }
 
+  footer{
+    background-color: rgb(180, 180, 180);
+  }
 header {
     margin: 0;
     background-image: url("asset/guing.jpg");
