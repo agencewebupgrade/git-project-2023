@@ -1,13 +1,6 @@
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Poppins:wght@400;700&display=swap");
-@font-face{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
+
 /* VARIABLES */
 :root {
     --red: rgb(77, 9, 9);
@@ -18,32 +11,6 @@
     /* FONTS */
     --font-main: "Montserrat", sans-serif;
     --font-heading: "Poppins", sans-serif;
-}
-
-header {
-    background-color: var(--red);
-
-
-
-}
-
-
-
-
-
-
-
-header {
-    background-color: var(--white);
-}
-
-
-**************** FOOOOTTTTEEEEERRRRRRRRRR ************************ ****************************************************************** 
-
-
-
-footer {
-    background-color: rgb(122, 122, 122);
 }
 
 header {
@@ -87,13 +54,11 @@ footer {
 }
 
 .copy {
-    margin: 1rem 0 0 1rem;
     display: flex;
-    
+    justify-items: center;
     font-family: var(--font-main);
     font-weight: bold;
     font-size: 1.2rem;
-
 }
 
 .categorie{
@@ -107,13 +72,6 @@ footer {
     
 }
 
-
-
-
-
-********** FFIIIIINNNNN FOOOOTTTTEEEEERRRRRRRRRR ***************** ****************************************************************** 
-HTML,
-body 
 .Consommable{
     color: rgb(180, 12, 12);
     top: 10px;
@@ -128,7 +86,6 @@ body
 .midmenu{
     text-align: center;
 }
-
 .prix{
 display: flex;
 float: right;
@@ -152,12 +109,19 @@ a:link {
     color: black;
 }
 
-h1,h2 {
-    font-family: var(--font-heading)!;
+h1,
+h2 {
+    font-family: var(--font-heading);
+}
+
+h1,
+h2 {
+    font-family: var(--font-heading);
+
 }
 
 li {
-    list-style-type: none;
+    text-decoration: none;
 }
 
 .img-rs {
@@ -193,9 +157,10 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 7rem;
+    height : 7rem
     transition all 0.5s ease-in-out;
 }
+
 
 .logo {
     position: absolute;
@@ -220,11 +185,22 @@ header {
 inscr ul li a {
     text-decoration: none;
     color: var(--cream);
+    padding: 0.5rem;
+}
+
+.inscr ul li a:hover{
+    background-color: var(--cream);
+    color: var(--red);
+    border-radius: var(--border-radius);
+}
+
+.inscr ul li a:active {
+    background-color: var(--white);
+    transform: scale(0.9);
 }
 
 .nav {
     margin-top: 4rem;
-    top: 6rem;
     display: block;
 }
 
@@ -237,6 +213,11 @@ inscr ul li a {
     align-content: center;
     list-style-type: none;
     background-color: var(--cream);
+    background-color: var(--red);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .nav ul li a {
@@ -245,84 +226,6 @@ inscr ul li a {
     color: var(--cream);
     padding: 0.5rem 2rem;
 }
-
-#main-image h1, p{ text-align: center
-    
-}
-.main-image{
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 400px;
-  height: 400px;
-}
-#menu{  text-align: center;
-    border: 3px solid var(--red);
-
-    
-
-}
-#reservation{text-align: center;
-    border: 3px solid var(--red);
-
-}
-#menu .btn{
-    animation: wiggle 2s linear infinite;
-}
-
-/* Keyframes */
-@keyframes wiggle {
-  0%, 7% {
-    transform: rotateZ(0);
-  }
-  15% {
-    transform: rotateZ(-15deg);
-  }
-  20% {
-    transform: rotateZ(10deg);
-  }
-  25% {
-    transform: rotateZ(-10deg);
-  }
-  30% {
-    transform: rotateZ(6deg);
-  }
-  35% {
-    transform: rotateZ(-4deg);
-  }
-  40%, 100% {
-    transform: rotateZ(0);
-  }
-}
-#reservation .btn{
-    animation: wiggle 2s linear infinite;
-}
-
-/* Keyframes */
-@keyframes wiggle {
-  0%, 7% {
-    transform: rotateZ(0);
-  }
-  15% {
-    transform: rotateZ(-15deg);
-  }
-  20% {
-    transform: rotateZ(10deg);
-  }
-  25% {
-    transform: rotateZ(-10deg);
-  }
-  30% {
-    transform: rotateZ(6deg);
-  }
-  35% {
-    transform: rotateZ(-4deg);
-  }
-  40%, 100% {
-    transform: rotateZ(0);
-  }
-}  
-
 
 .nav ul li a:hover {
     background-color: var(--cream);
@@ -333,4 +236,3 @@ inscr ul li a {
     transform: scale(0.90);
     background-color: var(--white);
 }
-
