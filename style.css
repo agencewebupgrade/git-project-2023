@@ -178,6 +178,7 @@ header {
     align-items: flex-start;
     list-style-type: none;
     padding-top: 1rem;
+    padding-right: 2rem;
 }
 
 .inscr ul li a {
