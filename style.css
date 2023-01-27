@@ -21,6 +21,32 @@
 }
 
 header {
+    background-color: var(--red);
+
+
+
+}
+
+
+
+
+
+
+
+header {
+    background-color: var(--white);
+}
+
+
+**************** FOOOOTTTTEEEEERRRRRRRRRR ************************ ****************************************************************** 
+
+
+
+footer {
+    background-color: rgb(122, 122, 122);
+}
+
+header {
     background-color: var(--white);
 }
 
@@ -61,11 +87,13 @@ footer {
 }
 
 .copy {
+    margin: 1rem 0 0 1rem;
     display: flex;
-    justify-items: center;
+    
     font-family: var(--font-main);
     font-weight: bold;
     font-size: 1.2rem;
+
 }
 
 .categorie{
@@ -79,6 +107,13 @@ footer {
     
 }
 
+
+
+
+
+********** FFIIIIINNNNN FOOOOTTTTEEEEERRRRRRRRRR ***************** ****************************************************************** 
+HTML,
+body 
 .Consommable{
     color: rgb(180, 12, 12);
     top: 10px;
@@ -158,10 +193,9 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height : 7rem
+    height: 7rem;
     transition all 0.5s ease-in-out;
 }
-
 
 .logo {
     position: absolute;
@@ -186,22 +220,11 @@ header {
 inscr ul li a {
     text-decoration: none;
     color: var(--cream);
-    padding: 0.5rem;
-}
-
-.inscr ul li a:hover{
-    background-color: var(--cream);
-    color: var(--red);
-    border-radius: var(--border-radius);
-}
-
-.inscr ul li a:active {
-    background-color: var(--white);
-    transform: scale(0.9);
 }
 
 .nav {
     margin-top: 4rem;
+    top: 6rem;
     display: block;
 }
 
@@ -214,11 +237,6 @@ inscr ul li a {
     align-content: center;
     list-style-type: none;
     background-color: var(--cream);
-    background-color: var(--red);
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    font-size: 1.5rem;
-    font-weight: 700;
 }
 
 .nav ul li a {
@@ -227,6 +245,84 @@ inscr ul li a {
     color: var(--cream);
     padding: 0.5rem 2rem;
 }
+
+#main-image h1, p{ text-align: center
+    
+}
+.main-image{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 400px;
+}
+#menu{  text-align: center;
+    border: 3px solid var(--red);
+
+    
+
+}
+#reservation{text-align: center;
+    border: 3px solid var(--red);
+
+}
+#menu .btn{
+    animation: wiggle 2s linear infinite;
+}
+
+/* Keyframes */
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+#reservation .btn{
+    animation: wiggle 2s linear infinite;
+}
+
+/* Keyframes */
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}  
+
 
 .nav ul li a:hover {
     background-color: var(--cream);
@@ -237,3 +333,4 @@ inscr ul li a {
     transform: scale(0.90);
     background-color: var(--white);
 }
+
