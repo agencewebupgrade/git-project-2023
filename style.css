@@ -428,6 +428,7 @@ p {
 }
 .btn:hover{
     background-color: gray;
+    color: var(--red);
 }
 
 #menu .btn {
@@ -513,6 +514,7 @@ p {
 .nav ul li a:hover {
     background-color: var(--cream);
     color: var(--red);
+    border: 1px solid var(--red);
 }
 
 .nav ul li a:active {
