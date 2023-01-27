@@ -10,3 +10,4 @@ Medy Oukrid
 - Nicolas Serin
 - Adnane Amari
 - Rita Alfy
+- Kory Avuina
