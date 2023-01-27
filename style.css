@@ -16,7 +16,7 @@
 
 
 header{
-    background-color: var(--red);
+    background-color: var(--white);
 }
 
 HTML, body {
@@ -32,21 +32,21 @@ HTML, body {
     scroll-behavior: smooth;
 }
 
-p {
-    font-family: sans-serif;
-}
+a:link
+{ 
+ text-decoration:none;
+ color:black;
+} 
 
 
 h1, h2{
-    font-family:var(--font-heading);
->>>>>>> 93277532fc3263d3064a3f8625897c83d9f4d3c2
+    font-family: var(--font-heading);
 }
 
 li {
-    text-decoration: none;
+    list-style-type: none;
 }
 
-<<<<<<< HEAD
 .img-rs {
     width: 5rem;
     height: 5rem;
