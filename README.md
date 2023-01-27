@@ -12,3 +12,4 @@ Participants :
 - Adnane Amari
 - Rita Alfy
 - Kory Avuina
+- Nicolas Poyet
