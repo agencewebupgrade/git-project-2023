@@ -13,16 +13,11 @@
     --font-heading: "Poppins", sans-serif;
 }
 
-<<<<<<< HEAD
-HTML,
-body {
-=======
 header{
     background-color: var(--red);
 }
 
 HTML, body {
->>>>>>> 93277532fc3263d3064a3f8625897c83d9f4d3c2
     font-family: var(--font-main);
     width: 100%;
     height: 100%;
@@ -34,7 +29,6 @@ HTML, body {
     scroll-behavior: smooth;
 }
 
-<<<<<<< HEAD
 p {
     font-family: sans-serif;
 }
@@ -42,22 +36,15 @@ p {
 h1,
 h2 {
     font-family: var(--font-heading);
-=======
-h1, h2{
-    font-family:var(--font-heading);
->>>>>>> 93277532fc3263d3064a3f8625897c83d9f4d3c2
 }
-
 li {
     text-decoration: none;
 }
 
-<<<<<<< HEAD
 .img-rs {
     width: 5rem;
     height: 5rem;
 }
-=======
 .btn {
     display: inline-block;
     border: 1px solid var(--cream);
@@ -72,4 +59,7 @@ li {
 .btn:hover {
     background-color: transparent;
   }
->>>>>>> 93277532fc3263d3064a3f8625897c83d9f4d3c2
+
+  footer{
+    background-color: rgb(180, 180, 180);
+  }
