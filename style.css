@@ -46,6 +46,21 @@ footer {
     bottom: 0rem;
 }
 
+.jppno {
+ 
+    display: flex;
+    position: absolute;
+    right: 20rem;
+    bottom: 1rem;
+    text-decoration: solid;
+}
+
+.rezofoot button:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+ 
+}
+
 .rezofoot ul li {
     display: inline-flex;
     justify-content: flex-end;
@@ -607,7 +622,6 @@ p {
 }
 
 .cardProduct div img {
-    margin-left:20px;
     height:100px
 }
 
