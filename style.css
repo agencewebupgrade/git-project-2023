@@ -314,6 +314,9 @@ header {
 
 
 /*accueil (rita)*/
+.corps{
+    position: relative;
+}
 #main-image h1,
 p {
     text-align: center
@@ -332,10 +335,12 @@ p {
 #menu {
     text-align: center;
     border: 3px solid var(--red);
-    position: fixed;
-   top: 300px;
+    border-radius: 20px;
+    position: absolute;
+   bottom: 0px;
    left: 60px;
    width: 250px;
+   margin-bottom: 0%;
 
 
 
@@ -344,8 +349,9 @@ p {
 #reservation {
     text-align: center;
     border: 3px solid var(--red);
-    position: fixed;
-   top: 300px;
+    border-radius: 20px;
+    position: absolute;
+   bottom: 0px;
    right: 60px;
    width: 250px;
    
