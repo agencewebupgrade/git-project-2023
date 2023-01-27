@@ -185,8 +185,7 @@ body {
     background-color: var(--cream);
     margin: 0;
     padding: 0;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
+    overflow: auto;
     
 }
 
