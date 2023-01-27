@@ -27,20 +27,35 @@
 footer{
   background-color: rgb(121, 101, 101);
 }
+#mentions li  {
+  display: inline-flex;
+  
+  padding: 0 0.5rem ;
+  font-size: 1.2rem;
+  font-weight: bold;
 
-#mentions ul li a{
-    display: inline-flex;
-    justify-content: right;
-    text-decoration: none;   
+}
 
+#mentions  {
+    display:flex;
+    justify-content: end;
+    
+    
+
+}
+.rezofoot{
+  display: flex;
+  justify-content: end;
 }
 .rezofoot ul li{
     display:inline-flex;
-    justify-content: end;
-   
-    
-    
+    justify-content: flex-end;
+  
 }
+.rezofoot ul li img{
+  height: 50px;
+}
+
 
 
 
@@ -67,5 +82,13 @@ h1, h2{
 
 li{
     text-decoration: none;
+}
+.copy {
+  display: flex;
+  font-family: var(--font-main);
+ font-weight: bold;
+ font-size: 1.2rem;
+justify-items:center ; 
+margin-top: 100px;
 }
 

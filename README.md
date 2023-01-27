@@ -2,6 +2,7 @@
 Projet GIT collaboratif 2023
 
 Participants :
+Medy Oukrid
 - Semi Khelef
 - Sylvain Barrellon
 - Maxime Coëffé
