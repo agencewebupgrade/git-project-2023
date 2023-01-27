@@ -34,8 +34,9 @@
 <body>
     
     <div class="cardProduct">
+        <div style="margin: auto;">
         <h1 id="nom"></h1>
-        <div><img src="asset/badoit.jpeg" alt="Image produit"></div>
+        <div style="text-align: center;"><img src="asset/badoit.jpeg" alt="Image produit"></div></div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
              Pariatur veritatis dicta sequi quisquam dolorem modi qui architecto quasi 
              cum! Animi reprehenderit optio cupiditate. Consequatur voluptate facere iusto 
@@ -46,12 +47,17 @@
     <script language="Javascript">
         var parameters = location.search.substring(1).split("&");
         var temp = parameters[0].split("=");
-        l = unescape(temp[1]);
+        var l = ''
+        for(let i=1; i<temp.length; i++ ){
+            l += temp[i]
+        }
+        decodeURI(l)
         p = unescape(temp[0]);
         const titre = document.getElementById("nom");
         if(l != 'undefined'){
-            console.log(p + ':' + l)         
-            titre.innerHTML = l
+            console.log(p + ':' + l)
+                    
+            titre.innerHTML = decodeURI(l)
         } else {
             titre.innerHTML = 'Nom Produit'
         }

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Page d'accueil</title>
+    <link rel="icon" href="asset/logonglet.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,11 +15,23 @@
                 <ul>
                     <li><a href="inscrip.html" target="_blank">Inscription</a></li>
                     <li>/</li>
-                    <li><a href="log.html">Connexion</a></li>
+                    <li><a href="#log">Connexion</a></li>
                 </ul>
             </div>
             <div class="logo"><a href="accueil.html"><img src="asset/guinguette01.png" alt="logo la Guinguette de St Just St Rambert"></a></div>
-            
+            <div  id="log" class="overlay">
+                <div class="popup">
+                    <div>
+                        <form class="formul">
+                        <label for="E-mail">Votre adresse e-mail :</label>
+                        <input type="text" placeholder="Votre adresse e-mail" name="E-mail" required class="text">
+                        <label for="pass">Mot de passe (8 caractères minimum):</label>
+                        <input type="password" id="pass" name="password" minlength="8" required class="text">
+                        <input type="submit" class="envoyer">
+                      </form>
+                    </div>
+                    <a href="#" class="cross">&times;</a>
+                </div>
         </section>
         <section class="nav">
             <ul>
@@ -59,7 +72,7 @@
     <footer>
         <div class="copy">
     
-            <p> © copyright promos HB la best 2023.</p>
+            <p> © copyright promos HB la best 2023. La promos des BG.</p>
         </div>
     
         <div id="mentions">
