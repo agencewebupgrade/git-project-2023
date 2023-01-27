@@ -13,9 +13,19 @@
     --font-heading: "Poppins", sans-serif;
 }
 
-header{
-    background-color: var(--white);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer{
   background-color: rgb(121, 101, 101);
@@ -92,22 +102,18 @@ HTML, body {
     scroll-behavior: smooth;
 }
 
-a:link
-{ 
- text-decoration:none;
- color:black;
-} 
-
-h1,
-h2 {
-    font-family: var(--font-heading);
+p {
+    font-family: sans-serif;
 }
+
+
 h1, h2{
     font-family:var(--font-heading);
 
 }
+
 li {
-    list-style-type: none;
+    text-decoration: none;
 }
 
 .copy {
@@ -143,9 +149,6 @@ margin-top: 100px;
     background-color: transparent;
   }
 
-  footer{
-    background-color: rgb(180, 180, 180);
-  }
 header {
     margin: 0;
     background-image: url("asset/guing.jpg");
@@ -155,7 +158,9 @@ header {
     background-size :cover;
     position: relative;
     height : 7rem
+    transition all 0.5s ease-in-out;
 }
+
 
 .logo {
     position: absolute;
@@ -175,18 +180,27 @@ header {
 	align-items: flex-start;
     list-style-type: none;
     padding-top: 1rem;
-    color: var(--cream);
-    padding-right: 1rem;
 }
 
-.inscr ul li a {
+inscr ul li a {
     text-decoration: none;
     color: var(--cream);
+    padding: 0.5rem;
+}
+
+.inscr ul li a:hover{
+    background-color: var(--cream);
+    color: var(--red);
+    border-radius: var(--border-radius);
+}
+
+.inscr ul li a:active {
+    background-color: var(--white);
+    transform: scale(0.9);
 }
 
 .nav {
     margin-top: 4rem;
-    top: 6rem;
     display: block;
 }
 
@@ -198,11 +212,28 @@ header {
 	align-items: flex-start;
 	align-content: center;
     list-style-type: none;
+    background-color: var(--cream);
     background-color: var(--red);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .nav ul li a {
     text-decoration: none;
+    color: var(--red);
     color: var(--cream);
+    padding: 0.5rem 2rem;
+}
+
+.nav ul li a:hover {
+    background-color: var(--cream);
+    color: var(--red);
+}
+
+.nav ul li a:active {
+    transform: scale(0.90);
+    background-color: var(--white);
 }
 
