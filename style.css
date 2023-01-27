@@ -45,6 +45,8 @@ li {
     list-style-type: none;
 }
 
+<<<<<<< HEAD
+=======
 .copy {
   display: flex;
   font-family: var(--font-main);
@@ -56,6 +58,7 @@ margin-top: 100px;
 
 
 
+>>>>>>> 1709af78a2f377516cd15dcf7c9d5dcbe5d21405
 
 .img-rs {
     width: 5rem;
