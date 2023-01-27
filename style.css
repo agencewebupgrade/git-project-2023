@@ -13,9 +13,19 @@
     --font-heading: "Poppins", sans-serif;
 }
 
-header{
-    background-color: var(--white);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer{
   background-color: rgb(121, 101, 101);
@@ -50,15 +60,8 @@ footer{
 }
 
 
-.consommable{
-    color: rgb(180, 12, 12);
-    display: flex;
-    float: left;
-    top: 10px;
-}
-.detail{
-    color:rgb(100, 76, 76);
-}
+
+
 
 HTML, body {
 
@@ -73,22 +76,18 @@ HTML, body {
     scroll-behavior: smooth;
 }
 
-a:link
-{ 
- text-decoration:none;
- color:black;
-} 
-
-h1,
-h2 {
-    font-family: var(--font-heading);
+p {
+    font-family: sans-serif;
 }
+
+
 h1, h2{
     font-family:var(--font-heading);
 
 }
+
 li {
-    list-style-type: none;
+    text-decoration: none;
 }
 
 .copy {
@@ -124,9 +123,6 @@ margin-top: 100px;
     background-color: transparent;
   }
 
-  footer{
-    background-color: rgb(180, 180, 180);
-  }
 header {
     margin: 0;
     background-image: url("asset/guing.jpg");
@@ -137,6 +133,7 @@ header {
     position: relative;
     height : 7rem
 }
+
 
 .logo {
     position: absolute;
@@ -156,11 +153,9 @@ header {
 	align-items: flex-start;
     list-style-type: none;
     padding-top: 1rem;
-    color: var(--cream);
-    padding-right: 1rem;
 }
 
-.inscr ul li a {
+inscr ul li a {
     text-decoration: none;
     color: var(--cream);
 }
@@ -179,11 +174,11 @@ header {
 	align-items: flex-start;
 	align-content: center;
     list-style-type: none;
-    background-color: var(--red);
+    background-color: var(--cream);
 }
 
 .nav ul li a {
     text-decoration: none;
-    color: var(--cream);
+    color: var(--red);
 }
 
