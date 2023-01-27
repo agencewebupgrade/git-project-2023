@@ -17,11 +17,12 @@
 
 footer {
     margin-top: 1rem;
-    background: linear-gradient(217deg,  rgb(185, 0, 0), rgb(71, 12, 12)70%);
+    background: linear-gradient(25deg,  rgb(114, 36, 36) 55%, rgb(216, 173, 173));
     text-align: right;
     width: 100%;
     height: 8rem;
     position: relative;
+    color:black!;
 }
 
 #mentions li {
@@ -31,13 +32,17 @@ footer {
     font-weight: bold;
 }
 
-#mentions {
+#mentions{
     margin-right: 2rem;
     padding-top: 1rem;
     display: flex;
     justify-content: end;
+    text-decoration: none;
+    
 }
-
+#mentions a:visited{
+color: black;
+}
 .rezofoot {
     position: absolute;
     display: flex;
