@@ -19,10 +19,10 @@ html {
       position: relative;
       height: 7rem transition all 0.5s ease-in-out;
       height : 7rem;
-      transition: all 0.5s ease-in-out; 7133f5e1fa847bb9f41bd665a9cc2c149dcc23f0;
+      transition: all 0.5s ease-in-out;
       height : 10rem;
       transition: all 0.5s ease-in-out;
-      margin-bottom: 1rem;46726fb6c56b70fdd0dbbbac5247b70a99924fda
+      margin-bottom: 1rem;
   }
   
   
@@ -149,24 +149,16 @@ html {
   background: no-repeat left/cover
       url(https://t4.ftcdn.net/jpg/01/02/61/59/360_F_102615966_sjV2aKAqf2GcG8KrFvDmiu9hLggYTpFB.jpg);
   border-radius: 4px;}
+  
+  
   footer {
+      margin-top: 1rem;
       background-color: rgb(122, 122, 122);
       text-align: right;
+      width: 100%;
+      height: 10rem;
+      position: relative;
   }
-  
-  
-  
-  #mentions {
-  
-      display: flex;
-      justify-content: end;
-  }
-  
-  .rezofoot {
-      display: flex;
-      justify-content: end;
-  }
-  
   .rezofoot ul li {
       display: inline-flex;
       justify-content: flex-end;
@@ -178,6 +170,23 @@ html {
       font-weight: bold;
   }
   
+  #mentions {
+      margin-right: 2rem;
+      padding-top: 1rem;
+      display: flex;
+      justify-content: end;
+  }
+  
+  .rezofoot {
+      position: absolute;
+      display: flex;
+      justify-content: end;
+      right: 1rem;
+    bottom: -18px;
+  }
+  
+  
+  
   #mentions a:hover {
       color: antiquewhite;
   }
@@ -188,11 +197,15 @@ html {
   
   .copy {
       display: flex;
+      float: left;
       justify-items: center;
+      align-items: center;
+      position: absolute;
+      top: 4rem;
+      left: 1rem;
+  
       font-family: var(--font-main);
       font-weight: bold;
       font-size: 1.2rem;
   }
-  
-  
   
