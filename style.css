@@ -177,9 +177,7 @@ li {
 
 
 
-.btn:hover {
-    background-color: transparent;
-}
+
 
 footer {
     background-color: rgb(180, 180, 180);
@@ -246,6 +244,7 @@ inscr ul li a {
     padding: 0.5rem 2rem;
 }
 
+/*accueil (rita)*/
 #main-image h1, p{ text-align: center
     
 }
@@ -322,6 +321,8 @@ inscr ul li a {
     transform: rotateZ(0);
   }
 }  
+
+/* fin accueil (rita)*/
 
 
 .nav ul li a:hover {
