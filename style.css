@@ -46,6 +46,21 @@ footer {
     bottom: 0rem;
 }
 
+.jppno {
+ 
+    display: flex;
+    position: absolute;
+    right: 20rem;
+    bottom: 1rem;
+    text-decoration: solid;
+}
+
+.rezofoot button:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+ 
+}
+
 .rezofoot ul li {
     display: inline-flex;
     justify-content: flex-end;
@@ -117,6 +132,7 @@ body {
     padding: 0;
     overflow-y: scroll;
     scroll-behavior: smooth;
+    
 }
 
 a:link {
@@ -321,6 +337,10 @@ p {
 #menu {
     text-align: center;
     border: 3px solid var(--red);
+    position: fixed;
+   top: 300px;
+   left: 60px;
+   width: 250px;
 
 
 
@@ -329,6 +349,12 @@ p {
 #reservation {
     text-align: center;
     border: 3px solid var(--red);
+    position: fixed;
+   top: 300px;
+   right: 60px;
+   width: 250px;
+   
+    
 
 }
 .btn{ border-radius: 15px;
