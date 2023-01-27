@@ -13,57 +13,92 @@
     --font-heading: "Poppins", sans-serif;
 }
 
+<<<<<<< HEAD
+header {
+    background-color: var(--red);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-footer{
-  background-color: rgb(121, 101, 101);
-}
-#mentions li  {
-  display: inline-flex;
-  
-  padding: 0 0.5rem ;
-  font-size: 1.2rem;
-  font-weight: bold;
 
 }
+=======
+>>>>>>> 2b0d139c8806c12e5847036f54a51ff16409523c
 
-#mentions  {
-    display:flex;
+
+
+
+
+
+
+<<<<<<< HEAD
+header {
+    background-color: var(--white);
+}
+=======
+
+
+
+
+
+
+>>>>>>> 2b0d139c8806c12e5847036f54a51ff16409523c
+
+
+**************** FOOOOTTTTEEEEERRRRRRRRRR ************************ ****************************************************************** 
+
+
+
+footer {
+    background-color: rgb(122, 122, 122);
+}
+
+footer p{
+    text-align: right;
+}
+
+#mentions li {
+    display: inline-flex;
+    padding: 0 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#mentions {
+
+    display: flex;
     justify-content: end;
-    
-    
+}
 
+.rezofoot {
+    display: flex;
+    justify-content: end;
 }
-.rezofoot{
-  display: flex;
-  justify-content: end;
-}
-.rezofoot ul li{
-    display:inline-flex;
+
+.rezofoot ul li {
+    display: inline-flex;
     justify-content: flex-end;
-  
-}
-.rezofoot ul li img{
-  height: 50px;
 }
 
+#mentions a:hover {
+    color: antiquewhite;
+}
+
+.rezofoot ul li img {
+    height: 50px;
+}
+
+.copy {
+    display: flex;
+    justify-items: center;
+    font-family: var(--font-main);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
 
 
 
-
-HTML, body {
+********** FFIIIIINNNNN FOOOOTTTTEEEEERRRRRRRRRR ***************** ****************************************************************** 
+HTML,
+body {
 
     font-family: var(--font-main);
     width: 100%;
@@ -76,6 +111,21 @@ HTML, body {
     scroll-behavior: smooth;
 }
 
+<<<<<<< HEAD
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+h1,
+h2 {
+    font-family: var(--font-heading);
+}
+
+h1,
+h2 {
+    font-family: var(--font-heading);
+=======
 p {
     font-family: sans-serif;
 }
@@ -83,6 +133,7 @@ p {
 
 h1, h2{
     font-family:var(--font-heading);
+>>>>>>> 2b0d139c8806c12e5847036f54a51ff16409523c
 
 }
 
@@ -90,14 +141,6 @@ li {
     text-decoration: none;
 }
 
-.copy {
-  display: flex;
-  font-family: var(--font-main);
- font-weight: bold;
- font-size: 1.2rem;
-justify-items:center ; 
-margin-top: 100px;
-}
 
 
 
@@ -117,22 +160,33 @@ margin-top: 100px;
     transition: all 0.3s ease-in-out;
 }
 
-  
+
 
 .btn:hover {
     background-color: transparent;
-  }
+}
 
+<<<<<<< HEAD
+footer {
+    background-color: rgb(180, 180, 180);
+}
+
+=======
+>>>>>>> 2b0d139c8806c12e5847036f54a51ff16409523c
 header {
     margin: 0;
     background-image: url("asset/guing.jpg");
     background-color: var(--red);
     background-position: center;
     background-repeat: no-repeat;
-    background-size :cover;
+    background-size: cover;
     position: relative;
+<<<<<<< HEAD
+    height: 7rem
+=======
     height : 7rem
     transition all 0.5s ease-in-out;
+>>>>>>> 2b0d139c8806c12e5847036f54a51ff16409523c
 }
 
 
@@ -143,15 +197,15 @@ header {
     padding-left: 2rem;
 }
 
-.logo img{
+.logo img {
     height: 4rem;
 }
 
-.inscr ul{
+.inscr ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-	align-items: flex-start;
+    align-items: flex-start;
     list-style-type: none;
     padding-top: 1rem;
 }
@@ -178,13 +232,13 @@ inscr ul li a {
     display: block;
 }
 
-.nav ul{
+.nav ul {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-	justify-content: space-evenly;
-	align-items: flex-start;
-	align-content: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: center;
     list-style-type: none;
     background-color: var(--cream);
     background-color: var(--red);
@@ -197,6 +251,9 @@ inscr ul li a {
 .nav ul li a {
     text-decoration: none;
     color: var(--red);
+<<<<<<< HEAD
+}
+=======
     color: var(--cream);
     padding: 0.5rem 2rem;
 }
@@ -211,3 +268,4 @@ inscr ul li a {
     background-color: var(--white);
 }
 
+>>>>>>> 2b0d139c8806c12e5847036f54a51ff16409523c
