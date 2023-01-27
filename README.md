@@ -5,3 +5,4 @@ Participants :
 - Semi Khelef
 - Sylvain Barrellon
 - Maxime Coëffé
+- Nicolas Serin
