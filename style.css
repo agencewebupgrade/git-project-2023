@@ -13,58 +13,83 @@
     --font-heading: "Poppins", sans-serif;
 }
 
-header{
-    background-color: var(--red);
-
-
-
-}
-
-
-
-
-
-
-
-header{
+header {
     background-color: var(--white);
 }
 
-footer{
-  background-color: rgb(121, 101, 101);
-}
-#mentions li  {
-  display: inline-flex;
-  
-  padding: 0 0.5rem ;
-  font-size: 1.2rem;
-  font-weight: bold;
-
+footer {
+    background-color: rgb(122, 122, 122);
+    text-align: right;
 }
 
-#mentions  {
-    display:flex;
+#mentions li {
+    display: inline-flex;
+    padding: 0 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#mentions {
+
+    display: flex;
     justify-content: end;
-    
-    
+}
 
+.rezofoot {
+    display: flex;
+    justify-content: end;
 }
-.rezofoot{
-  display: flex;
-  justify-content: end;
-}
-.rezofoot ul li{
-    display:inline-flex;
+
+.rezofoot ul li {
+    display: inline-flex;
     justify-content: flex-end;
-  
-}
-.rezofoot ul li img{
-  height: 50px;
 }
 
+#mentions a:hover {
+    color: antiquewhite;
+}
 
+.rezofoot ul li img {
+    height: 50px;
+}
 
+.copy {
+    display: flex;
+    justify-items: center;
+    font-family: var(--font-main);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
 
+.categorie{
+    margin-left: 20px;
+}
+
+.exploit{
+    display: flex;
+    direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.Consommable{
+    color: rgb(180, 12, 12);
+    top: 10px;
+    line-height: 30px;
+}
+.details{
+    color:rgb(100, 76, 76);
+    top:10px;
+    margin-left: 30px;
+}
+
+.midmenu{
+    text-align: center;
+}
+.prix{
+display: flex;
+float: right;
+}
 
 HTML, body {
 
@@ -79,38 +104,25 @@ HTML, body {
     scroll-behavior: smooth;
 }
 
-a:link
-{ 
- text-decoration:none;
- color:black;
-} 
+a:link {
+    text-decoration: none;
+    color: black;
+}
 
 h1,
 h2 {
     font-family: var(--font-heading);
 }
-h1, h2{
-    font-family:var(--font-heading);
+
+h1,
+h2 {
+    font-family: var(--font-heading);
 
 }
+
 li {
-    list-style-type: none;
+    text-decoration: none;
 }
-
-<<<<<<< HEAD
-=======
-.copy {
-  display: flex;
-  font-family: var(--font-main);
- font-weight: bold;
- font-size: 1.2rem;
-justify-items:center ; 
-margin-top: 100px;
-}
-
-
-
->>>>>>> 1709af78a2f377516cd15dcf7c9d5dcbe5d21405
 
 .img-rs {
     width: 5rem;
@@ -127,25 +139,28 @@ margin-top: 100px;
     transition: all 0.3s ease-in-out;
 }
 
-  
+
 
 .btn:hover {
     background-color: transparent;
-  }
+}
 
-  footer{
+footer {
     background-color: rgb(180, 180, 180);
-  }
+}
+
 header {
     margin: 0;
     background-image: url("asset/guing.jpg");
     background-color: var(--red);
     background-position: center;
     background-repeat: no-repeat;
-    background-size :cover;
+    background-size: cover;
     position: relative;
     height : 7rem
+    transition all 0.5s ease-in-out;
 }
+
 
 .logo {
     position: absolute;
@@ -154,15 +169,15 @@ header {
     padding-left: 2rem;
 }
 
-.logo img{
+.logo img {
     height: 4rem;
 }
 
-.inscr ul{
+.inscr ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-	align-items: flex-start;
+    align-items: flex-start;
     list-style-type: none;
     padding-top: 1rem;
 }
@@ -170,28 +185,46 @@ header {
 inscr ul li a {
     text-decoration: none;
     color: var(--cream);
+    padding: 0.5rem;
+}
+
+.inscr ul li a:hover{
+    background-color: var(--cream);
+    color: var(--red);
+    border-radius: var(--border-radius);
+}
+
+.inscr ul li a:active {
+    background-color: var(--white);
+    transform: scale(0.9);
 }
 
 .nav {
     margin-top: 4rem;
-    top: 6rem;
     display: block;
 }
 
-.nav ul{
+.nav ul {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-	justify-content: space-evenly;
-	align-items: flex-start;
-	align-content: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: center;
     list-style-type: none;
     background-color: var(--cream);
+    background-color: var(--red);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .nav ul li a {
     text-decoration: none;
     color: var(--red);
+    color: var(--cream);
+    padding: 0.5rem 2rem;
 }
 
 #main-image h1, p{ text-align: center
@@ -270,5 +303,15 @@ inscr ul li a {
     transform: rotateZ(0);
   }
 }  
+
+
+.nav ul li a:hover {
+    background-color: var(--cream);
+    color: var(--red);
+}
+
+.nav ul li a:active {
+    transform: scale(0.90);
+    background-color: var(--white);
 }
 
