@@ -20,22 +20,6 @@
     --font-heading: "Poppins", sans-serif;
 }
 
-header {
-    background-color: var(--red);
-
-
-
-}
-
-
-
-
-
-
-
-header {
-    background-color: var(--white);
-}
 
 
 **************** FOOOOTTTTEEEEERRRRRRRRRR ************************ ****************************************************************** 
@@ -46,9 +30,6 @@ footer {
     background-color: rgb(122, 122, 122);
 }
 
-header {
-    background-color: var(--white);
-}
 
 footer {
     background-color: rgb(122, 122, 122);
@@ -112,8 +93,7 @@ footer {
 
 
 ********** FFIIIIINNNNN FOOOOTTTTEEEEERRRRRRRRRR ***************** ****************************************************************** 
-HTML,
-body 
+
 .Consommable{
     color: rgb(180, 12, 12);
     top: 10px;
@@ -135,7 +115,6 @@ float: right;
 }
 
 HTML, body {
-
     font-family: var(--font-main);
     width: 100%;
     height: 100%;
@@ -185,6 +164,8 @@ footer {
     background-color: rgb(180, 180, 180);
 }
 
+/*************************** HEADER *********************************/
+
 header {
     margin: 0;
     background-image: url("asset/guing.jpg");
@@ -217,7 +198,7 @@ header {
     padding-top: 1rem;
 }
 
-inscr ul li a {
+.inscr ul li a {
     text-decoration: none;
     color: var(--cream);
 }
@@ -236,7 +217,10 @@ inscr ul li a {
     align-items: flex-start;
     align-content: center;
     list-style-type: none;
-    background-color: var(--cream);
+    background-color: var(--red);
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0.5rem;
 }
 
 .nav ul li a {
@@ -246,9 +230,22 @@ inscr ul li a {
     padding: 0.5rem 2rem;
 }
 
-#main-image h1, p{ text-align: center
-    
+.nav ul li a:hover {
+    background-color: var(--cream);
+    color: var(--red);
 }
+
+.nav ul li a:active {
+    transform: scale(0.90);
+    background-color: var(--white);
+}
+
+/******************* FIN DU HEADER *********************/
+
+#main-image h1, p{ 
+    text-align: center  
+}
+
 .main-image{
     display: block;
   margin-left: auto;
@@ -256,10 +253,10 @@ inscr ul li a {
   width: 400px;
   height: 400px;
 }
+
 #menu{  text-align: center;
     border: 3px solid var(--red);
 
-    
 
 }
 #reservation{text-align: center;
@@ -322,17 +319,6 @@ inscr ul li a {
     transform: rotateZ(0);
   }
 }  
-
-
-.nav ul li a:hover {
-    background-color: var(--cream);
-    color: var(--red);
-}
-
-.nav ul li a:active {
-    transform: scale(0.90);
-    background-color: var(--white);
-}
 
 .formul {
     width: 30rem;
