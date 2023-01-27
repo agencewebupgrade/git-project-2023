@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
-    <title>Détail produit</title>
-    <script language="Javascript">
-        page = document.location.href;
-        idPage = page.substring(page.lastIndexOf( "/" )+1 );
-        </script> 
+    <link href="styles.css" rel="stylesheet">
+    <title>Produit</title>
+
 </head>
+
 <body>
+    <h1 id="nom"></h1>
+    
     <div class="cardProduct">
         <div><img src="produit.png" alt="Image produit"></div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -20,5 +20,18 @@
              culpa delectus alias?
         </p>
     </div>
+    <script language="Javascript">
+        var parameters = location.search.substring(1).split("&");
+        var temp = parameters[0].split("=");
+        l = unescape(temp[1]);
+        p = unescape(temp[0]);
+        const titre = document.getElementById("nom");
+        if(l != 'undefined'){
+            console.log(p + ':' + l)         
+            titre.innerHTML = l
+        } else {
+            titre.innerHTML = 'Nom Produit'
+        }
+    </script> 
 </body>
 </html>
