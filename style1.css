@@ -1,0 +1,76 @@
+html {
+    background-color: #fff5ee; }
+  #id1
+  {position:relative;
+  bottom: 32px;
+  right: 100px;
+  width : 200px;
+  height: auto;}
+  header {
+    margin-top: 30px;
+    background: no-repeat left/cover
+      url(https://t4.ftcdn.net/jpg/01/02/61/59/360_F_102615966_sjV2aKAqf2GcG8KrFvDmiu9hLggYTpFB.jpg);
+    height: 180px;
+    padding: 20px;}
+  h1 {
+    font-size: 6rem;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: "Galada", cursive;}
+  .hache1
+  {padding-top: 20px;
+    padding-bottom: 20px;
+  background: no-repeat left/cover
+      url(https://t4.ftcdn.net/jpg/01/02/61/59/360_F_102615966_sjV2aKAqf2GcG8KrFvDmiu9hLggYTpFB.jpg);
+  border-radius: 4px;}
+  #hache2
+  {padding: 30px;}
+  
+  footer {
+      background-color: rgb(122, 122, 122);
+      text-align: right;
+  }
+  
+  
+  
+  #mentions {
+  
+      display: flex;
+      justify-content: end;
+  }
+  
+  .rezofoot {
+      display: flex;
+      justify-content: end;
+  }
+  
+  .rezofoot ul li {
+      display: inline-flex;
+      justify-content: flex-end;
+  }
+  #mentions li {
+      display: inline-flex;
+      padding: 0 0.5rem;
+      font-size: 1.2rem;
+      font-weight: bold;
+  }
+  
+  #mentions a:hover {
+      color: antiquewhite;
+  }
+  
+  .rezofoot ul li img {
+      height: 50px;
+  }
+  
+  .copy {
+      display: flex;
+      justify-items: center;
+      font-family: var(--font-main);
+      font-weight: bold;
+      font-size: 1.2rem;
+  }
+  
+  
+  
