@@ -214,3 +214,55 @@ header {
     background-color: var(--white);
 }
 
+.formul {
+    width: 30rem;
+    margin-left: 4rem;
+    padding-bottom: 5rem;
+    margin-top: 4rem;
+    transition: 0.5s ease-in-out;
+    background-color: var(--cream);
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.text {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 0.35rem;
+    padding: 0.5rem;
+    border: 0 solid transparent;
+    background-color: var(--white);
+}
+
+.text:focus{
+    background-color: rgb(222, 255, 255);
+}
+
+.inscription {
+    display: flex;
+    justify-content: center;
+    color: var(--red);
+    background-color: var(--red);
+}
+
+.envoyer{
+    background-color: var(--red);
+    border-radius: 0.75rem;
+    width: 30%;
+    padding: 0.7rem;
+    cursor: pointer;
+    color: var(--cream);
+    transition: all 0.3s ease-in-out;
+}
+
+.envoyer:hover{
+    background-color: var(--cream);
+    color: var(--red);
+}
+
+.envoyer:active{
+    transform: scale(0.8);
+}
