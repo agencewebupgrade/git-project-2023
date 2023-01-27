@@ -4,10 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Les produits</title>
 </head>
+
+<ul class="exploit">
+    <li><h1>à boire</h1></li>
+    <li><h1>à manger</h1></li>
+    <li><h1>à découvrir</h1></li>
+</ul>
+
 <body>
-    
+<h2 class="categorie">Les Boissons</h2>
+
+<div class="soft">
+    <h2 class="midmenu">Les soft</h2>
+   <form action="detailProduit"> <ul>
+    <input type="hidden" name="nomvar"  value="12345" /> 
+    <li class="Consommable">Plancoët <span class="prix">2,50€</span></li> 
+       <li class="details">50cl</li>
+       <li class="Consommable"onclick="document.location.href='detailProduit.html?Nom=Badoit';">Baboit<span class="prix">2,50€</span></li>
+       <li class="details">50cl</li>
+       <li class="Consommable"onclick="document.location.href='detailProduit.html?Nom=jus de fruit';">Jus de fruit<span class="prix">2,50€</span></li>
+       <li class="details">25cl</li>
+       <li class="Consommable"onclick="document.location.href='detailProduit.html?Nom=Breizh';">Breizh Cola<span class="prix">2,50€</span></li>
+       <li class="details">25cl</li>
+       <li class="Consommable"onclick="document.location.href='detailProduit.html?Nom=Limonade';">Limonade<span class="prix">2,50€</span></li>
+       <li class="details">25cl</li>
+       <li class="Consommable"onclick="document.location.href='detailProduit.html?Nom=Jus';">Jus de fruit<span class="prix">4€</span></li>
+       <li class="details">Fraise framboise ou annanas / 25cl</li>
+       <li class="Consommable"onclick="document.location.href='detailProduit.html?Nom=Lemonaid';">Lemonaid<span class="prix">4€</span></li>
+       <li class="details">Citron vert ou orange sanguine / 33cl</li>
+       <li class="Consommable"onclick="document.location.href='detailProduit.html?Nom=charitea';">charitea Bio<span class="prix">4€</span></li>
+       <li class="details">Black ou green / 33cl</li>
+       <li class="Consommable"onclick="document.location.href='detailProduit.html?Nom=Café';">Café<span class="prix">1€</span></li>
+       <li class="details">expresso</li>
+       <li class="Consommable"onclick="document.location.href='detailProduit.html?Nom=Thé';">Thé<span class="prix">1€</span></li>
+       <li class="details">Vert</li>
+      </ul></div>
+
+      <div class="bieres">
+        <h2 class="midmenu" >Les bieres</h2>
+       <ul>
+           <li class="Consommable">1947 <span class="prix">5,50€</span></li>
+           <li class="details">50cl</li>
+           <li class="Consommable">Tigre bock<span class="prix">6,50€</span></li>
+           <li class="details">50cl</li>
+           <li class="Consommable">blanche hermine<span class="prix">6,50€</span></li>
+           <li class="details">25cl</li>
+           <li class="Consommable">biere artisanale<span class="prix"></span></li>
+           <li class="details">Voir ardoise</li>
+        
+          </ul></div>
+          
+          <div class="vin">
+            <h2 class="midmenu">Les vin</h2>
+           <ul>
+               <li class="Consommable">Rouge <span class="prix">3€</span></li>
+               <li class="details">12cl</li>
+               <li class="Consommable">Blanc<span class="prix">3€</span></li>
+               <li class="details">12cl</li>
+               <li class="Consommable">rosé<span class="prix">3€</span></li>
+               <li class="details">12cl</li>
+               <li class="Consommable">Bouteille<span class="prix">18€</span></li>
+               <li class="details">75cl</li>
+              </ul></div>    
+
+              <h2 class="categorie">Au Menu</h2>
+
+              <div class="Pizza">
+                  <h2 class="midmenu">Les pizzas</h2>
+                 <ul>
+                     <li class="Consommable">Margherita <span class="prix">8€</span></li>
+                     <li class="details">Sauce tomate, mozzarella</li>
+                     <li class="Consommable">Reine<span class="prix">10€</span></li>
+                     <li class="details">Sauce tomate, mozzarella, jambon blanc, champignons</li>
+                     <li class="Consommable">Végétarienne<span class="prix">10€</span></li>
+                     <li class="details">Sauce tomate, mozzarella, oignons rouge, aubergines, courgettes marinées, mesclun</li>
+                     <li class="Consommable">Quatre Fromages<span class="prix">12€</span></li>
+                     <li class="details">Sauce tomate, mozzarella, tomme de Savoie, chèvre, gorgonzola</li>
+                     <li class="Consommable">Lucio<span class="prix">11€</span></li>
+                     <li class="details">Sauce tomate, mozzarella, jambon des Pyrénées, grana-padano, basilic, tomates cerises, mesclun</li>
+                     <li class="Consommable">Chèvre Miel<span class="prix">12€</span></li>
+                     <li class="details">Sauce tomate, mozzarella, chèvre, miel, noix, jambon des Pyrénées, mesclun</li>
+                     <li class="Consommable">Guinguette<span class="prix">14€</span></li>
+                     <li class="details">Sauce tomate, mozzarella, chorizo ibérique, oignons rouge, mozzarella di bufala, pesto, mesclun</li>
+                
+                    </ul></div>
+                    <div class="Desserts">
+                        <h2 class="midmenu">Les desserts</h2>
+                       <ul>
+                           <li class="Consommable">Brownie au chocolat <span class="prix">5€</span></li>
+                          
+                           <li class="Consommable">Tiramisu fraise spéculoos<span class="prix">5€</span></li>
+                          
+                           <li class="Consommable">Sundae<span class="prix">5€</span></li>
+                    
+                          </ul></div>
+      
 </body>
 </html>
