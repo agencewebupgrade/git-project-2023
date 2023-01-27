@@ -9,7 +9,17 @@
     --font-heading: "Poppins", sans-serif;
 }
 html {
-  background-color: #fff5ee; }
+   font-family: var(--font-main);
+  background-color: #fff5ee; 
+  width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: var(--cream);
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+  scroll-behavior: smooth;}
+
 #id1
 {position:relative;
 bottom: 32px;
@@ -37,8 +47,6 @@ background-image: url("asset/guing.jpg");
     transition: all 0.5s ease-in-out;
     margin-bottom: 1rem;
 }
-
-
 .logo {
     position: absolute;
     top: 1rem;
@@ -49,7 +57,19 @@ background-image: url("asset/guing.jpg");
 .logo img {
     height: 4rem;
 }
+a:link {
+    text-decoration: none;
+    color: black;
+}
+.nav ul li a:hover {
+    background-color: var(--cream);
+    color: var(--red);
+}
 
+.nav ul li a:active {
+    transform: scale(0.90);
+    background-color: var(--white);
+}
 .inscr ul {
     display: flex;
     flex-direction: row;
@@ -105,23 +125,7 @@ background-image: url("asset/guing.jpg");
     border-bottom-right-radius: 1rem;
 }
 
-
-}
-
-
 /*accueil (rita)*/
-#main-image h1,
-p {
-    text-align: center
-}
-
-.main-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    height: 400px;
-}
 
 #menu {
     text-align: center;
@@ -144,9 +148,8 @@ p {
 h1 {
   font-size: 6rem;
   text-align: center;
-  text-decoration: underline;
   font-weight: bold;
-  font-family: "Galada", cursive;}
+   font-family: var(--font-heading); }
 .hache1
 {padding-top: 20px;
   padding-bottom: 20px;
@@ -163,6 +166,22 @@ background-color: var(--red);
   color:white;
 border-radius: 4px;}
 
+#main-image h1,
+p {
+    text-align: center
+}
+
+.main-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+}
+
+li {
+    text-decoration: none;
+}
 
 footer {
     margin-top: 1rem;
@@ -220,4 +239,74 @@ footer {
     font-family: var(--font-main);
     font-weight: bold;
     font-size: 1.2rem;
+}
+@keyframes wiggle {
+
+    0%,
+    7% {
+        transform: rotateZ(0);
+    }
+
+    15% {
+        transform: rotateZ(-15deg);
+    }
+
+    20% {
+        transform: rotateZ(10deg);
+    }
+
+    25% {
+        transform: rotateZ(-10deg);
+    }
+
+    30% {
+        transform: rotateZ(6deg);
+    }
+
+    35% {
+        transform: rotateZ(-4deg);
+    }
+
+    40%,
+    100% {
+        transform: rotateZ(0);
+    }
+}
+
+#reservation .btn {
+    animation: wiggle 2s linear infinite;
+}
+
+/* Keyframes */
+@keyframes wiggle {
+
+    0%,
+    7% {
+        transform: rotateZ(0);
+    }
+
+    15% {
+        transform: rotateZ(-15deg);
+    }
+
+    20% {
+        transform: rotateZ(10deg);
+    }
+
+    25% {
+        transform: rotateZ(-10deg);
+    }
+
+    30% {
+        transform: rotateZ(6deg);
+    }
+
+    35% {
+        transform: rotateZ(-4deg);
+    }
+
+    40%,
+    100% {
+        transform: rotateZ(0);
+    }
 }
