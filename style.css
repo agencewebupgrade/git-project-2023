@@ -227,7 +227,13 @@ inscr ul li a {
 
 
 /*accueil (rita)*/
-#main-image h1, p{ text-align: center
+#main-image h1{
+    padding-top: 10px;
+    font-size: 50px;
+    font-style: italic;
+}
+#main-image h1, p{ text-align: center;
+    padding: 10px;
     
 }
 .main-image{
@@ -236,6 +242,8 @@ inscr ul li a {
   margin-right: auto;
   width: 400px;
   height: 400px;
+  border-radius: 30%;
+  box-shadow: 10px 10px 5px lightslategray;
 }
 #menu{  text-align: center;
     border: 3px solid var(--red);
@@ -247,6 +255,11 @@ inscr ul li a {
     border: 3px solid var(--red);
 
 }
+.btn{
+    border-radius: 12px
+    
+}
+.btn:hover{background-color: darkolivegreen;}
 #menu .btn{
     animation: wiggle 2s linear infinite;
 }
