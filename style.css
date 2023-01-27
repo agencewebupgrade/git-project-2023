@@ -13,45 +13,12 @@
     --font-heading: "Poppins", sans-serif;
 }
 
-<<<<<<< HEAD
-header {
-    background-color: var(--red);
-
-
-
-}
-=======
->>>>>>> 2b0d139c8806c12e5847036f54a51ff16409523c
-
-
-
-
-
-
-
-<<<<<<< HEAD
 header {
     background-color: var(--white);
 }
-=======
-
-
-
-
-
-
->>>>>>> 2b0d139c8806c12e5847036f54a51ff16409523c
-
-
-**************** FOOOOTTTTEEEEERRRRRRRRRR ************************ ****************************************************************** 
-
-
 
 footer {
     background-color: rgb(122, 122, 122);
-}
-
-footer p{
     text-align: right;
 }
 
@@ -94,11 +61,37 @@ footer p{
     font-size: 1.2rem;
 }
 
+.categorie{
+    margin-left: 20px;
+}
 
+.exploit{
+    display: flex;
+    direction: row;
+    justify-content: space-evenly;
+    
+}
 
-********** FFIIIIINNNNN FOOOOTTTTEEEEERRRRRRRRRR ***************** ****************************************************************** 
-HTML,
-body {
+.Consommable{
+    color: rgb(180, 12, 12);
+    top: 10px;
+    line-height: 30px;
+}
+.details{
+    color:rgb(100, 76, 76);
+    top:10px;
+    margin-left: 30px;
+}
+
+.midmenu{
+    text-align: center;
+}
+.prix{
+display: flex;
+float: right;
+}
+
+HTML, body {
 
     font-family: var(--font-main);
     width: 100%;
@@ -111,7 +104,6 @@ body {
     scroll-behavior: smooth;
 }
 
-<<<<<<< HEAD
 a:link {
     text-decoration: none;
     color: black;
@@ -125,25 +117,12 @@ h2 {
 h1,
 h2 {
     font-family: var(--font-heading);
-=======
-p {
-    font-family: sans-serif;
-}
-
-
-h1, h2{
-    font-family:var(--font-heading);
->>>>>>> 2b0d139c8806c12e5847036f54a51ff16409523c
 
 }
 
 li {
     text-decoration: none;
 }
-
-
-
-
 
 .img-rs {
     width: 5rem;
@@ -166,13 +145,10 @@ li {
     background-color: transparent;
 }
 
-<<<<<<< HEAD
 footer {
     background-color: rgb(180, 180, 180);
 }
 
-=======
->>>>>>> 2b0d139c8806c12e5847036f54a51ff16409523c
 header {
     margin: 0;
     background-image: url("asset/guing.jpg");
@@ -181,12 +157,8 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-<<<<<<< HEAD
-    height: 7rem
-=======
     height : 7rem
     transition all 0.5s ease-in-out;
->>>>>>> 2b0d139c8806c12e5847036f54a51ff16409523c
 }
 
 
@@ -251,9 +223,6 @@ inscr ul li a {
 .nav ul li a {
     text-decoration: none;
     color: var(--red);
-<<<<<<< HEAD
-}
-=======
     color: var(--cream);
     padding: 0.5rem 2rem;
 }
@@ -267,5 +236,3 @@ inscr ul li a {
     transform: scale(0.90);
     background-color: var(--white);
 }
-
->>>>>>> 2b0d139c8806c12e5847036f54a51ff16409523c
