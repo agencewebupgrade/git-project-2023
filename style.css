@@ -39,6 +39,14 @@ footer {
     background-color: rgb(122, 122, 122);
 }
 
+header {
+    background-color: var(--white);
+}
+
+footer {
+    background-color: rgb(122, 122, 122);
+    text-align: right;
+}
 
 #mentions li {
     display: inline-flex;
@@ -81,7 +89,16 @@ footer {
 
 }
 
+.categorie{
+    margin-left: 20px;
+}
 
+.exploit{
+    display: flex;
+    direction: row;
+    justify-content: space-evenly;
+    
+}
 
 
 
@@ -89,7 +106,27 @@ footer {
 
 ********** FFIIIIINNNNN FOOOOTTTTEEEEERRRRRRRRRR ***************** ****************************************************************** 
 HTML,
-body {
+body 
+.Consommable{
+    color: rgb(180, 12, 12);
+    top: 10px;
+    line-height: 30px;
+}
+.details{
+    color:rgb(100, 76, 76);
+    top:10px;
+    margin-left: 30px;
+}
+
+.midmenu{
+    text-align: center;
+}
+.prix{
+display: flex;
+float: right;
+}
+
+HTML, body {
 
     font-family: var(--font-main);
     width: 100%;
@@ -121,10 +158,6 @@ h2 {
 li {
     list-style-type: none;
 }
-
-
-
-
 
 .img-rs {
     width: 5rem;
@@ -159,7 +192,8 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 7rem
+    height: 7rem;
+    transition all 0.5s ease-in-out;
 }
 
 .logo {
@@ -207,4 +241,16 @@ inscr ul li a {
 .nav ul li a {
     text-decoration: none;
     color: var(--red);
+    color: var(--cream);
+    padding: 0.5rem 2rem;
+}
+
+.nav ul li a:hover {
+    background-color: var(--cream);
+    color: var(--red);
+}
+
+.nav ul li a:active {
+    transform: scale(0.90);
+    background-color: var(--white);
 }
