@@ -39,14 +39,14 @@ p {
 
 h1, h2{
     font-family:var(--font-heading);
->>>>>>> 93277532fc3263d3064a3f8625897c83d9f4d3c2
+
 }
 
 li {
     text-decoration: none;
 }
 
-<<<<<<< HEAD
+
 .img-rs {
     width: 5rem;
     height: 5rem;
