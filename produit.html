@@ -8,43 +8,43 @@
     <title>Les produits</title>
 </head>
 
-<ul>
+<ul class="exploit">
     <li><h1>à boire</h1></li>
     <li><h1>à manger</h1></li>
     <li><h1>à découvrir</h1></li>
 </ul>
 
 <body>
-<h2>Les Boissons</h2>
+<h2 class="categorie">Les Boissons</h2>
 
 <div class="soft">
-    <h2>Les soft</h2>
-   <form action="detailProduit"> <ul>
-    <input type="hidden" name="nomvar"  value="12345" /> 
-    <li class="Consommable">Plancoët <span class="prix">2,50€</span></li> 
+    <h2 class="midmenu">Les soft</h2>
+   <ul>
+   
+    <li class="Consommable"onclick="document.location.href='detailProduit.html?Nom=Plancoët';">Plancoët <span class="prix">2,50€</span></li> 
        <li class="details">50cl</li>
-       <li class="Consommable">Baboit<span class="prix">2,50€</span></li>
+       <li class="Consommable"onclick="document.location.href='detailProduit.html?Nom=Badoit';">Baboit<span class="prix">2,50€</span></li>
        <li class="details">50cl</li>
-       <li class="Consommable">Jus de fruit<span class="prix">2,50€</span></li>
+       <li class="Consommable"onclick="document.location.href='detailProduit.html?Nom=jus de fruit';">Jus de fruit<span class="prix">2,50€</span></li>
        <li class="details">25cl</li>
-       <li class="Consommable">Breizh Cola<span class="prix">2,50€</span></li>
+       <li class="Consommable"onclick="document.location.href='detailProduit.html?Nom=Breizh';">Breizh Cola<span class="prix">2,50€</span></li>
        <li class="details">25cl</li>
-       <li class="Consommable">Limonade<span class="prix">2,50€</span></li>
+       <li class="Consommable"onclick="document.location.href='detailProduit.html?Nom=Limonade';">Limonade<span class="prix">2,50€</span></li>
        <li class="details">25cl</li>
-       <li class="Consommable">Jus de fruit<span class="prix">4€</span></li>
+       <li class="Consommable"onclick="document.location.href='detailProduit.html?Nom=Jus';">Jus de fruit<span class="prix">4€</span></li>
        <li class="details">Fraise framboise ou annanas / 25cl</li>
-       <li class="Consommable">Lemonaid<span class="prix">4€</span></li>
+       <li class="Consommable"onclick="document.location.href='detailProduit.html?Nom=Lemonaid';">Lemonaid<span class="prix">4€</span></li>
        <li class="details">Citron vert ou orange sanguine / 33cl</li>
-       <li class="Consommable">charitea Bio<span class="prix">4€</span></li>
+       <li class="Consommable"onclick="document.location.href='detailProduit.html?Nom=charitea';">charitea Bio<span class="prix">4€</span></li>
        <li class="details">Black ou green / 33cl</li>
-       <li class="Consommable">Café<span class="prix">1€</span></li>
+       <li class="Consommable"onclick="document.location.href='detailProduit.html?Nom=Café';">Café<span class="prix">1€</span></li>
        <li class="details">expresso</li>
-       <li class="Consommable">Thé<span class="prix">1€</span></li>
+       <li class="Consommable"onclick="document.location.href='detailProduit.html?Nom=Thé';">Thé<span class="prix">1€</span></li>
        <li class="details">Vert</li>
-      </ul></form></div>
+      </ul></div>
 
       <div class="bieres">
-        <h2>Les bieres</h2>
+        <h2 class="midmenu" >Les bieres</h2>
        <ul>
            <li class="Consommable">1947 <span class="prix">5,50€</span></li>
            <li class="details">50cl</li>
@@ -58,7 +58,7 @@
           </ul></div>
           
           <div class="vin">
-            <h2>Les vin</h2>
+            <h2 class="midmenu">Les vin</h2>
            <ul>
                <li class="Consommable">Rouge <span class="prix">3€</span></li>
                <li class="details">12cl</li>
@@ -70,10 +70,10 @@
                <li class="details">75cl</li>
               </ul></div>    
 
-              <h2>Au Menu</h2>
+              <h2 class="categorie">Au Menu</h2>
 
               <div class="Pizza">
-                  <h2>Les pizzas</h2>
+                  <h2 class="midmenu">Les pizzas</h2>
                  <ul>
                      <li class="Consommable">Margherita <span class="prix">8€</span></li>
                      <li class="details">Sauce tomate, mozzarella</li>
@@ -92,7 +92,7 @@
                 
                     </ul></div>
                     <div class="Desserts">
-                        <h2>Les desserts</h2>
+                        <h2 class="midmenu">Les desserts</h2>
                        <ul>
                            <li class="Consommable">Brownie au chocolat <span class="prix">5€</span></li>
                           
@@ -101,6 +101,41 @@
                            <li class="Consommable">Sundae<span class="prix">5€</span></li>
                     
                           </ul></div>
-      
+                          <footer>
+                            <div class="copy">
+                        
+                                <p> © copyright promos HB la best 2023.</p>
+                            </div>
+                        
+                            <div id="mentions">
+                                <ul>
+                                    <li><a href="https://www.legalplace.fr/contrats/mentions-legales-2/?gclid=Cj0KCQiAic6eBhCoARIsANlox874DF-_Bl8Lf2aT7y6ONfdd6cLA-BmpjljJ__dLWJDMnqpm5prK1esaAjvkEALw_wcB">Mentions légales </a></li>
+                                    <li><a href="#">Plan du site</a></li>
+                                        <li><a href="contact.html">Nous contacter</a></li>
+                                </ul>
+                            </div>
+                            <div class="rezofoot">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.instagram.com" target="_blank"> <img
+                                                src="https://static.deepl.com/img/_optimized/footer/instagramLogo.svg" alt="instagram"></a>
+                                    </li>
+                        
+                                    <li><a href="https://github.com/" target="_blank"><img
+                                            src="https://static.deepl.com/img/_optimized/footer/githubLogo.svg" alt="github"></a></li>
+                        
+                        <li><a href="https://www.linkedin.com/" target="_blank"><img
+                                            src="https://static.deepl.com/img/_optimized/footer/linkedinLogo.svg" alt="linkedin"></a></li>
+                        
+                                   <li> <a href="https://fr-fr.facebook.com/" target="_blank"> <img
+                                            src="https://static.deepl.com/img/_optimized/footer/facebookLogo.svg" alt="facebook"> </a></li>
+                        
+                                   <li> <a href="https://twitter.com" target="_blank"> <img
+                                            src="https://static.deepl.com/img/_optimized/footer/twitterLogo.svg" alt="twitter"></a></li>
+                                </ul>
+                            </div>
+                        
+                        
+                        </footer>
 </body>
 </html>

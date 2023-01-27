@@ -2,7 +2,8 @@
 Projet GIT collaboratif 2023
 
 Participants :
-Medy Oukrid
+
+- Medy Oukrid
 - Semi Khelef
 - Sylvain Barrellon
 - Maxime Coëffé
@@ -11,3 +12,4 @@ Medy Oukrid
 - Adnane Amari
 - Rita Alfy
 - Kory Avuina
+- Nicolas Poyet
