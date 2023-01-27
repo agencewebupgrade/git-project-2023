@@ -2,3 +2,5 @@
 Projet GIT collaboratif 2023
 Semi Khelef
 Sylvain Barrellon
+
+Maxime Coëffé
