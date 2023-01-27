@@ -11,7 +11,123 @@ html {
     background: no-repeat left/cover
       url(https://t4.ftcdn.net/jpg/01/02/61/59/360_F_102615966_sjV2aKAqf2GcG8KrFvDmiu9hLggYTpFB.jpg);
     height: 180px;
-    padding: 20px;}
+    padding: 20px;
+      margin: 0;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      height: 7rem transition all 0.5s ease-in-out;
+      height : 7rem;
+      transition: all 0.5s ease-in-out; 7133f5e1fa847bb9f41bd665a9cc2c149dcc23f0;
+      height : 10rem;
+      transition: all 0.5s ease-in-out;
+      margin-bottom: 1rem;46726fb6c56b70fdd0dbbbac5247b70a99924fda
+  }
+  
+  
+  .logo {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      padding-left: 2rem;
+  }
+  
+  .logo img {
+      height: 4rem;
+  }
+  
+  .inscr ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: flex-start;
+      list-style-type: none;
+      padding-top: 1rem;
+      padding-right: 2rem;
+  }
+  
+  .inscr ul li a {
+      text-decoration: none;
+      color: var(--cream);
+      padding: 0.5rem;
+  }
+  
+  .inscr ul li a:hover {
+      background-color: var(--cream);
+      color: var(--red);
+      border-radius: var(--border-radius);
+  }
+  
+  .inscr ul li a:active {
+      background-color: var(--white);
+      transform: scale(0.9);
+  }
+  
+  .nav {
+      margin-top: 4rem;
+      display: block;
+  }
+  
+  .nav ul {
+      position: absolute;
+      top: 7rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-evenly;
+      align-content: center;
+      list-style-type: none;
+      background-color: var(--cream);
+      background-color: var(--red);
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+      border-top-right-radius: 1rem;
+      border-bottom-right-radius: 1rem;
+  }
+  
+  .nav ul li a {
+      text-decoration: none;
+      color: var(--red);
+      color: var(--cream);
+      padding: 0.5rem 2rem;
+  }
+  
+  
+  /*accueil (rita)*/
+  #main-image h1,
+  p {
+      text-align: center
+  }
+  
+  .main-image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 400px;
+      height: 400px;
+  }
+  
+  #menu {
+      text-align: center;
+      border: 3px solid var(--red);
+  
+  
+  
+  }
+  
+  #reservation {
+      text-align: center;
+      border: 3px solid var(--red);
+  
+  }
+  
+  #menu .btn {
+      animation: wiggle 2s linear infinite;
+  }
+  
   h1 {
     font-size: 6rem;
     text-align: center;
@@ -26,7 +142,13 @@ html {
   border-radius: 4px;}
   #hache2
   {padding: 30px;}
-  
+  .hache3
+  {margin-top: 20px;
+    padding: 10px;
+    padding-bottom:20px;
+  background: no-repeat left/cover
+      url(https://t4.ftcdn.net/jpg/01/02/61/59/360_F_102615966_sjV2aKAqf2GcG8KrFvDmiu9hLggYTpFB.jpg);
+  border-radius: 4px;}
   footer {
       background-color: rgb(122, 122, 122);
       text-align: right;
